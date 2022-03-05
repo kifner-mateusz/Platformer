@@ -1,0 +1,18 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://addons/gd-sheets/data_document.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+data = [ [ "", "1" ], [ "Name", "L1" ], [ "Path", "res://scenes/levels/level01/level01.tscn" ] ]
+hash_map = {
+"1": {
+"Name": "L1",
+"Path": "res://scenes/levels/level01/level01.tscn"
+}
+}
+header_sizes = [ null, 90.0, 432.0 ]
+id_sizes = [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+columns = 3
+rows = 21
+is_dirty = false
