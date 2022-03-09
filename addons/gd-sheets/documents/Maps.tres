@@ -4,11 +4,19 @@
 
 [resource]
 script = ExtResource( 1 )
-data = [ [ "", "1" ], [ "Name", "L1" ], [ "Path", "res://scenes/levels/level01/level01.tscn" ] ]
+data = [ [ "", "1", "2", "3" ], [ "Name", "L1", "L2", "L3" ], [ "Path", "res://scenes/levels/level01/level01.tscn", "res://scenes/levels/level02/level02.tscn", "res://scenes/levels/level03/level03.tscn" ] ]
 hash_map = {
 "1": {
 "Name": "L1",
 "Path": "res://scenes/levels/level01/level01.tscn"
+},
+"2": {
+"Name": "L2",
+"Path": "res://scenes/levels/level02/level02.tscn"
+},
+"3": {
+"Name": "L3",
+"Path": "res://scenes/levels/level03/level03.tscn"
 }
 }
 header_sizes = [ null, 90.0, 432.0 ]

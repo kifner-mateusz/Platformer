@@ -159,6 +159,8 @@ config/icon="res://icon.png"
 [autoload]
 
 HyperLog="*res://addons/hyperlog/hyperlog.tscn"
+Global="*res://global/global.gd"
+Levelmanager="*res://global/levelmanager.gd"
 
 [display]
 
@@ -172,6 +174,7 @@ enabled=PoolStringArray( "res://addons/ProjectResolution/plugin.cfg", "res://add
 [gui]
 
 theme/custom="res://assets/theme/dark_editor.theme"
+theme/custom_font="res://assets/font/Roboto/Roboto24.tres"
 
 [physics]
 
