@@ -14,5 +14,9 @@ func next():
 	
 	
 	
-func _ready():
-	print(levels)
+#func _ready():
+#	print(levels)
+func reset():
+	var next_level=levels[str(current_level)]
+	get_tree().change_scene_to(load(next_level['Path']))
+	
