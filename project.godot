@@ -9,6 +9,11 @@
 config_version=4
 
 _global_script_classes=[ {
+"base": "Node",
+"class": "BaseCoin",
+"language": "GDScript",
+"path": "res://fsm_demo/entities/coin/scripts/base_coin.gd"
+}, {
 "base": "Control",
 "class": "Cell",
 "language": "GDScript",
@@ -39,6 +44,16 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://addons/gd-sheets/scripts/cell_reference.gd"
 }, {
+"base": "BaseCoin",
+"class": "Coin",
+"language": "GDScript",
+"path": "res://fsm_demo/entities/coin/scripts/coin.gd"
+}, {
+"base": "Node",
+"class": "FSM",
+"language": "GDScript",
+"path": "res://addons/node_fsm_plugin/fsm_node.gd"
+}, {
 "base": "Reference",
 "class": "GDSUtil",
 "language": "GDScript",
@@ -53,6 +68,11 @@ _global_script_classes=[ {
 "class": "LogContainer",
 "language": "GDScript",
 "path": "res://addons/hyperlog/log_container.gd"
+}, {
+"base": "KinematicBody2D",
+"class": "Player",
+"language": "GDScript",
+"path": "res://fsm_demo/entities/player/scripts/player.gd"
 }, {
 "base": "Reference",
 "class": "SfxrGenerator",
@@ -88,6 +108,11 @@ _global_script_classes=[ {
 "class": "SheetsDataDocument",
 "language": "GDScript",
 "path": "res://addons/gd-sheets/data_document.gd"
+}, {
+"base": "Node",
+"class": "State",
+"language": "GDScript",
+"path": "res://addons/node_fsm_plugin/state_node.gd"
 }, {
 "base": "Control",
 "class": "Tracker",
@@ -125,15 +150,19 @@ _global_script_classes=[ {
 "path": "res://addons/hyperlog/value_tracker.gd"
 } ]
 _global_script_class_icons={
+"BaseCoin": "",
 "Cell": "",
 "CellData": "",
 "CellHeader": "",
 "CellID": "",
 "CellOrigo": "",
 "CellReference": "",
+"Coin": "",
+"FSM": "res://addons/node_fsm_plugin/fsm_icon.svg",
 "GDSUtil": "",
 "GDSheets": "",
 "LogContainer": "",
+"Player": "",
 "SfxrGenerator": "",
 "SfxrGlobals": "",
 "SheetDataHandler": "",
@@ -141,6 +170,7 @@ _global_script_class_icons={
 "SheetGridContainer": "",
 "SheetGridHandler": "",
 "SheetsDataDocument": "",
+"State": "res://addons/node_fsm_plugin/state_icon.svg",
 "Tracker": "",
 "TrackerAngle": "",
 "TrackerBar": "",
@@ -169,12 +199,35 @@ window/size/height=720
 
 [editor_plugins]
 
-enabled=PoolStringArray( "res://addons/ProjectResolution/plugin.cfg", "res://addons/gd-sheets/plugin.cfg", "res://addons/godot_sfxr/plugin.cfg", "res://addons/hyperlog/plugin.cfg" )
+enabled=PoolStringArray( "res://addons/ProjectResolution/plugin.cfg", "res://addons/gd-sheets/plugin.cfg", "res://addons/godot_sfxr/plugin.cfg", "res://addons/hyperlog/plugin.cfg", "res://addons/node_fsm_plugin/plugin.cfg" )
 
 [gui]
 
 theme/custom="res://assets/theme/dark_editor.theme"
 theme/custom_font="res://assets/font/Roboto/Roboto24.tres"
+
+[input]
+
+left={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":65,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+right={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":68,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+jump={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":32,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+interact={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":69,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
 
 [physics]
 
