@@ -13,7 +13,7 @@ extends Node
 
 # Credits
 # player sprite http://bevouliin.com/ 
-
+# city tile set Iaavis, Gassasin
 
 func _ready():
 	pass 

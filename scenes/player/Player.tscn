@@ -7,10 +7,6 @@
 [ext_resource path="res://scenes/player/Jump.gd" type="Script" id=5]
 [ext_resource path="res://scenes/player/Player.gd" type="Script" id=6]
 
-[sub_resource type="CapsuleShape2D" id=1]
-radius = 39.0
-height = 70.0
-
 [sub_resource type="SpriteFrames" id=2]
 animations = [ {
 "frames": [ ExtResource( 1 ) ],
@@ -19,17 +15,21 @@ animations = [ {
 "speed": 5.0
 } ]
 
+[sub_resource type="CapsuleShape2D" id=1]
+radius = 19.0
+height = 40.0
+
 [node name="Player" type="KinematicBody2D"]
 script = ExtResource( 6 )
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( 0, 10 )
-shape = SubResource( 1 )
-
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
-position = Vector2( 0, -0.75 )
+scale = Vector2( 0.5, 0.5 )
 frames = SubResource( 2 )
 animation = "idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 0, 5 )
+shape = SubResource( 1 )
 
 [node name="StateMachine" type="Node" parent="."]
 script = ExtResource( 2 )
@@ -49,7 +49,14 @@ script = ExtResource( 5 )
 state_name = "Jump"
 
 [node name="FloorDetector" type="RayCast2D" parent="."]
-position = Vector2( 0, 72 )
+position = Vector2( 0, 30 )
 enabled = true
 cast_to = Vector2( 0, 20 )
 collide_with_areas = true
+
+[node name="Camera2D" type="Camera2D" parent="."]
+current = true
+zoom = Vector2( 0.75, 0.75 )
+drag_margin_h_enabled = true
+drag_margin_v_enabled = true
+smoothing_enabled = true
