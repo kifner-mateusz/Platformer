@@ -29,8 +29,11 @@ func on_input(player, event: InputEvent) -> void:
 
 
 func on_process(player, delta: float) -> void:
-	pass
-
+	player._on_input()
+	if(player.is_on_floor()):
+		go_to("Idle")
+		
+	player.velocity=player.move_and_slide(player.velocity,Vector2.UP)
 
 func on_physics_process(player, delta: float) -> void:
 	pass

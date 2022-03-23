@@ -26,19 +26,13 @@ func on_input(player, event: InputEvent) -> void:
 func on_process(player, delta: float) -> void:
 	player._on_input()
 
-
-	if not(player.get_node("FloorDetector").is_colliding()):
-		print("niekoliduje")
-		player.velocity.y+=player.GRAVITY*delta*5
 	
-	else:
-		print('koliduje')
-		player.velocity.y+=player.GRAVITY*delta
+	if(Input.is_action_just_pressed("jump")and player.is_on_floor()):
+		player.velocity.y= player.jump_speed
+		player.velocity=player.move_and_slide(player.velocity,Vector2.UP)
+		go_to("Jump")
+		
 	player.velocity=player.move_and_slide(player.velocity,Vector2.UP)
-	
-	
-	
-	
 func on_physics_process(player, delta: float) -> void:
 	pass
 	
