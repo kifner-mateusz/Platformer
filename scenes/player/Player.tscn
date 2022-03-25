@@ -1,17 +1,95 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=77 format=2]
 
 [ext_resource path="res://assets/img/player/run/run_012.png" type="Texture" id=1]
-[ext_resource path="res://scenes/player/StateMachine.gd" type="Script" id=2]
+[ext_resource path="res://addons/node_fsm_plugin/fsm_node.gd" type="Script" id=2]
 [ext_resource path="res://scenes/player/Idle.gd" type="Script" id=3]
 [ext_resource path="res://scenes/player/Walk.gd" type="Script" id=4]
 [ext_resource path="res://scenes/player/Jump.gd" type="Script" id=5]
 [ext_resource path="res://scenes/player/Player.gd" type="Script" id=6]
+[ext_resource path="res://assets/img/player/run/run_026.png" type="Texture" id=7]
+[ext_resource path="res://assets/img/player/run/run_028.png" type="Texture" id=8]
+[ext_resource path="res://assets/img/player/run/run_027.png" type="Texture" id=9]
+[ext_resource path="res://assets/img/player/jump/j_011.png" type="Texture" id=10]
+[ext_resource path="res://assets/img/player/run/run_011.png" type="Texture" id=11]
+[ext_resource path="res://assets/img/player/run/run_013.png" type="Texture" id=12]
+[ext_resource path="res://assets/img/player/jump/j_022.png" type="Texture" id=13]
+[ext_resource path="res://assets/img/player/jump/j_023.png" type="Texture" id=14]
+[ext_resource path="res://assets/img/player/jump/j_021.png" type="Texture" id=15]
+[ext_resource path="res://assets/img/player/jump/j_005.png" type="Texture" id=16]
+[ext_resource path="res://assets/img/player/run/run_005.png" type="Texture" id=17]
+[ext_resource path="res://assets/img/player/run/run_003.png" type="Texture" id=18]
+[ext_resource path="res://assets/img/player/run/run_015.png" type="Texture" id=19]
+[ext_resource path="res://assets/img/player/run/run_016.png" type="Texture" id=20]
+[ext_resource path="res://assets/img/player/run/run_017.png" type="Texture" id=21]
+[ext_resource path="res://assets/img/player/jump/j_000.png" type="Texture" id=22]
+[ext_resource path="res://assets/img/player/jump/j_018.png" type="Texture" id=23]
+[ext_resource path="res://assets/img/player/jump/j_017.png" type="Texture" id=24]
+[ext_resource path="res://assets/img/player/jump/j_006.png" type="Texture" id=25]
+[ext_resource path="res://assets/img/player/run/run_031.png" type="Texture" id=26]
+[ext_resource path="res://assets/img/player/run/run_032.png" type="Texture" id=27]
+[ext_resource path="res://assets/img/player/run/run_033.png" type="Texture" id=28]
+[ext_resource path="res://assets/img/player/jump/j_004.png" type="Texture" id=29]
+[ext_resource path="res://assets/img/player/jump/j_002.png" type="Texture" id=30]
+[ext_resource path="res://assets/img/player/jump/j_016.png" type="Texture" id=31]
+[ext_resource path="res://assets/img/player/jump/j_013.png" type="Texture" id=32]
+[ext_resource path="res://assets/img/player/run/run_009.png" type="Texture" id=33]
+[ext_resource path="res://assets/img/player/run/run_010.png" type="Texture" id=34]
+[ext_resource path="res://assets/img/player/run/run_014.png" type="Texture" id=35]
+[ext_resource path="res://assets/img/player/run/run_002.png" type="Texture" id=36]
+[ext_resource path="res://assets/img/player/jump/j_015.png" type="Texture" id=37]
+[ext_resource path="res://assets/img/player/jump/j_014.png" type="Texture" id=38]
+[ext_resource path="res://assets/img/player/run/run_024.png" type="Texture" id=39]
+[ext_resource path="res://assets/img/player/run/run_025.png" type="Texture" id=40]
+[ext_resource path="res://assets/img/player/run/run_039.png" type="Texture" id=41]
+[ext_resource path="res://assets/img/player/run/run_038.png" type="Texture" id=42]
+[ext_resource path="res://assets/img/player/run/run_037.png" type="Texture" id=43]
+[ext_resource path="res://assets/img/player/run/run_008.png" type="Texture" id=44]
+[ext_resource path="res://assets/img/player/run/run_007.png" type="Texture" id=45]
+[ext_resource path="res://assets/img/player/jump/j_008.png" type="Texture" id=46]
+[ext_resource path="res://assets/img/player/jump/j_010.png" type="Texture" id=47]
+[ext_resource path="res://assets/img/player/jump/j_012.png" type="Texture" id=48]
+[ext_resource path="res://assets/img/player/run/run_040.png" type="Texture" id=49]
+[ext_resource path="res://assets/img/player/run/run_041.png" type="Texture" id=50]
+[ext_resource path="res://assets/img/player/run/run_000.png" type="Texture" id=51]
+[ext_resource path="res://assets/img/player/run/run_004.png" type="Texture" id=52]
+[ext_resource path="res://assets/img/player/run/run_018.png" type="Texture" id=53]
+[ext_resource path="res://assets/img/player/run/run_019.png" type="Texture" id=54]
+[ext_resource path="res://assets/img/player/run/run_020.png" type="Texture" id=55]
+[ext_resource path="res://assets/img/player/jump/j_009.png" type="Texture" id=56]
+[ext_resource path="res://assets/img/player/run/run_001.png" type="Texture" id=57]
+[ext_resource path="res://assets/img/player/jump/j_020.png" type="Texture" id=58]
+[ext_resource path="res://assets/img/player/run/run_029.png" type="Texture" id=59]
+[ext_resource path="res://assets/img/player/run/run_030.png" type="Texture" id=60]
+[ext_resource path="res://assets/img/player/run/run_021.png" type="Texture" id=61]
+[ext_resource path="res://assets/img/player/run/run_022.png" type="Texture" id=62]
+[ext_resource path="res://assets/img/player/run/run_023.png" type="Texture" id=63]
+[ext_resource path="res://assets/img/player/run/run_042.png" type="Texture" id=64]
+[ext_resource path="res://assets/img/player/run/run_034.png" type="Texture" id=65]
+[ext_resource path="res://assets/img/player/run/run_036.png" type="Texture" id=66]
+[ext_resource path="res://assets/img/player/run/run_035.png" type="Texture" id=67]
+[ext_resource path="res://assets/img/player/jump/j_001.png" type="Texture" id=68]
+[ext_resource path="res://assets/img/player/jump/j_003.png" type="Texture" id=69]
+[ext_resource path="res://assets/img/player/run/run_006.png" type="Texture" id=70]
+[ext_resource path="res://assets/img/player/jump/j_007.png" type="Texture" id=71]
+[ext_resource path="res://assets/img/player/jump/j_024.png" type="Texture" id=72]
+[ext_resource path="res://assets/img/player/jump/j_019.png" type="Texture" id=73]
+[ext_resource path="res://scenes/player/Falling.gd" type="Script" id=74]
 
 [sub_resource type="SpriteFrames" id=2]
 animations = [ {
+"frames": [ ExtResource( 51 ), ExtResource( 57 ), ExtResource( 36 ), ExtResource( 18 ), ExtResource( 52 ), ExtResource( 17 ), ExtResource( 70 ), ExtResource( 45 ), ExtResource( 44 ), ExtResource( 33 ), ExtResource( 34 ), ExtResource( 11 ), ExtResource( 1 ), ExtResource( 12 ), ExtResource( 35 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 53 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 61 ), ExtResource( 62 ), ExtResource( 63 ), ExtResource( 39 ), ExtResource( 40 ), ExtResource( 7 ), ExtResource( 9 ), ExtResource( 8 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 26 ), ExtResource( 27 ), ExtResource( 28 ), ExtResource( 65 ), ExtResource( 67 ), ExtResource( 66 ), ExtResource( 43 ), ExtResource( 42 ), ExtResource( 41 ), ExtResource( 49 ), ExtResource( 50 ), ExtResource( 64 ) ],
+"loop": true,
+"name": "Walk",
+"speed": 30.0
+}, {
+"frames": [ ExtResource( 22 ), ExtResource( 68 ), ExtResource( 30 ), ExtResource( 69 ), ExtResource( 29 ), ExtResource( 16 ), ExtResource( 25 ), ExtResource( 71 ), ExtResource( 46 ), ExtResource( 56 ), ExtResource( 47 ), ExtResource( 10 ), ExtResource( 48 ), ExtResource( 32 ), ExtResource( 38 ), ExtResource( 37 ), ExtResource( 31 ), ExtResource( 24 ), ExtResource( 23 ), ExtResource( 73 ), ExtResource( 58 ), ExtResource( 15 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 72 ) ],
+"loop": true,
+"name": "Jump",
+"speed": 30.0
+}, {
 "frames": [ ExtResource( 1 ) ],
 "loop": true,
-"name": "idle",
+"name": "Idle",
 "speed": 5.0
 } ]
 
@@ -25,28 +103,31 @@ script = ExtResource( 6 )
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 scale = Vector2( 0.5, 0.5 )
 frames = SubResource( 2 )
-animation = "idle"
+animation = "Idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2( 0, 5 )
 shape = SubResource( 1 )
 
-[node name="StateMachine" type="Node" parent="."]
+[node name="FSM" type="Node" parent="."]
 script = ExtResource( 2 )
 initial_state = "Idle"
 target = NodePath("..")
 
-[node name="Idle" type="Node" parent="StateMachine"]
+[node name="Idle" type="Node" parent="FSM"]
 script = ExtResource( 3 )
 state_name = "Idle"
 
-[node name="Walk" type="Node" parent="StateMachine"]
+[node name="Walk" type="Node" parent="FSM"]
 script = ExtResource( 4 )
 state_name = "Walk"
 
-[node name="Jump" type="Node" parent="StateMachine"]
+[node name="Jump" type="Node" parent="FSM"]
 script = ExtResource( 5 )
 state_name = "Jump"
+
+[node name="Falling" type="Node" parent="FSM"]
+script = ExtResource( 74 )
 
 [node name="FloorDetector" type="RayCast2D" parent="."]
 position = Vector2( 0, 30 )

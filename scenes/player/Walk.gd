@@ -1,31 +1,33 @@
 extends State
 
+var falling_timer: String = ''
 
 func on_timers_register() -> void:
-	pass
+	falling_timer = register_timer('go_to Falling', 0.2)
 
 
-func on_ready() -> void:
-	pass
-
-
-# NOTE: leaving 'player' not typed to avoid errors when
-#		using typing in the extended scripts
 func on_enter(player) -> void:
-	pass
-
-
-func on_exit(player) -> void:
-	pass
-
+	print_debug("State Walk enterd")
+	player.get_node("AnimatedSprite").play("Walk")
 
 func on_input(player, event: InputEvent) -> void:
-	pass
-
-
-func on_process(player, delta: float) -> void:
-	pass
+	if(event.is_action_pressed("jump")):
+		go_to("Jump")
 
 
 func on_physics_process(player, delta: float) -> void:
-	pass
+	player.update_direction()
+	player.velocity.y+=player.GRAVITY * delta
+	if(Input.is_action_just_pressed("jump")):
+		go_to("Jump")
+	player.move()
+	
+	if player.is_on_floor():
+		reset_timer(falling_timer)
+
+	if (abs(player.velocity.x) < 10):
+		go_to("Idle")
+	else:
+		player.get_node("AnimatedSprite").speed_scale = smoothstep(10,player.SPEED,abs(player.velocity.x) )
+		player.get_node("AnimatedSprite").flip_h = player.velocity.x < 0
+	
