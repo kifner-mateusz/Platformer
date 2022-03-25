@@ -1,7 +1,7 @@
 extends State
-
-func on_enter(player):
-	print_debug("State Falling enterd")
+#
+#func on_enter(player):
+#	print_debug("State Falling enterd")
 
 
 func on_physics_process(player, delta: float) -> void:

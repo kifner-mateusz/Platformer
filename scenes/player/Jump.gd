@@ -4,7 +4,7 @@ func on_timers_register() -> void:
 	register_timer('go_to Falling', 0.1)
 
 func on_enter(player) -> void:
-	print_debug("State Jump enterd")
+#	print_debug("State Jump enterd")
 	player.get_node("AnimatedSprite").play("Jump")
 	player.get_node("AnimatedSprite").speed_scale = 1
 

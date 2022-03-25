@@ -1,0 +1,46 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://assets/img/city/Spritesheet.png" type="Texture" id=1]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 10, 8, 128, 162 )
+
+[node name="Sprite2" type="Sprite" parent="."]
+position = Vector2( 147, 0 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 147, 8, 128, 162 )
+
+[node name="Sprite3" type="Sprite" parent="."]
+position = Vector2( 329, -1 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 10, 193, 32, 32 )
+
+[node name="Sprite4" type="Sprite" parent="."]
+position = Vector2( 383, -2 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 58, 193, 32, 32 )
+
+[node name="Sprite5" type="Sprite" parent="."]
+position = Vector2( 286, 0 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 106, 193, 32, 32 )
+
+[node name="Sprite6" type="Sprite" parent="."]
+position = Vector2( 652, -1 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 19, 302, 384, 191 )
+
+[node name="Sprite7" type="Sprite" parent="."]
+position = Vector2( 1056, -6 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 286, 163, 140, 128 )

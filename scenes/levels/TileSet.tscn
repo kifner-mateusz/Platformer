@@ -1,0 +1,882 @@
+[gd_scene load_steps=148 format=2]
+
+[ext_resource path="res://assets/img/city/Middleground 1/Brick2_with_fungus_upper_edge.png" type="Texture" id=1]
+[ext_resource path="res://assets/img/city/Middleground/Brick2_Arrow_Forward.png" type="Texture" id=2]
+[ext_resource path="res://assets/img/city/Middleground 1/Brick3_brocken.png" type="Texture" id=3]
+[ext_resource path="res://assets/img/city/Middleground 1/Brick2_edge_border_L.png" type="Texture" id=4]
+[ext_resource path="res://assets/img/city/Middleground/Brick1.png" type="Texture" id=5]
+[ext_resource path="res://assets/img/city/Middleground 1/Brick3_Rusty.png" type="Texture" id=6]
+[ext_resource path="res://assets/img/city/Middleground/balcony.png" type="Texture" id=7]
+[ext_resource path="res://assets/img/city/Middleground/balcony_Broken.png" type="Texture" id=8]
+[ext_resource path="res://assets/img/city/Middleground 1/iron_roof.png" type="Texture" id=9]
+[ext_resource path="res://assets/img/city/Middleground/Brick2_Arrow_UP.png" type="Texture" id=10]
+[ext_resource path="res://scenes/levels/TileSet.gd" type="Script" id=11]
+[ext_resource path="res://assets/img/city/Middleground/Brick2_edge_border_L.png" type="Texture" id=12]
+[ext_resource path="res://assets/img/city/Middleground/Brick2_edge_border_R.png" type="Texture" id=13]
+[ext_resource path="res://assets/img/city/Middleground 1/iron_roof_edge_R.png" type="Texture" id=14]
+[ext_resource path="res://assets/img/city/Middleground/Brick2_with_fungus_bottom_edge.png" type="Texture" id=15]
+[ext_resource path="res://assets/img/city/Middleground/Brick2_with_fungus_edge_L.png" type="Texture" id=16]
+[ext_resource path="res://assets/img/city/Middleground/Brick2_with_fungus_edge_R.png" type="Texture" id=17]
+[ext_resource path="res://assets/img/city/Middleground/Brick2_with_fungus_upper_edge.png" type="Texture" id=18]
+[ext_resource path="res://assets/img/city/Middleground/Brick_roof_1.png" type="Texture" id=19]
+[ext_resource path="res://assets/img/city/Middleground 1/Brick3_1.png" type="Texture" id=20]
+[ext_resource path="res://assets/img/city/Middleground 1/Brick2_with_fungus_bottom_edge.png" type="Texture" id=21]
+[ext_resource path="res://assets/img/city/Middleground 1/Brick_roof_1.png" type="Texture" id=22]
+[ext_resource path="res://assets/img/city/Middleground 1/Brick2_Arrow_Forward.png" type="Texture" id=23]
+[ext_resource path="res://assets/img/city/Middleground 1/Brick2_edge_border_R.png" type="Texture" id=24]
+[ext_resource path="res://assets/img/city/Middleground/roof_broken_L.png" type="Texture" id=25]
+[ext_resource path="res://assets/img/city/Middleground 1/Brick2_crack2.png" type="Texture" id=26]
+[ext_resource path="res://assets/img/city/Middleground/roof_broken_R.png" type="Texture" id=27]
+[ext_resource path="res://assets/img/city/Middleground/roof_edge.png" type="Texture" id=28]
+[ext_resource path="res://assets/img/city/Middleground 1/broken_grid.png" type="Texture" id=29]
+[ext_resource path="res://assets/img/city/Middleground/roof_edge_R.png" type="Texture" id=30]
+[ext_resource path="res://assets/img/city/Middleground 1/balcony_iron.png" type="Texture" id=31]
+[ext_resource path="res://assets/img/city/Middleground 1/Brick2.png" type="Texture" id=32]
+[ext_resource path="res://assets/img/city/Middleground 1/balcony_Broken_R.png" type="Texture" id=33]
+[ext_resource path="res://assets/img/city/Middleground 1/balcony_iron_stripe.png" type="Texture" id=34]
+[ext_resource path="res://assets/img/city/Middleground 1/roof_broken_L.png" type="Texture" id=35]
+[ext_resource path="res://assets/img/city/Middleground 1/Brick2_blood1.png" type="Texture" id=36]
+[ext_resource path="res://assets/img/city/Middleground 1/grid.png" type="Texture" id=37]
+[ext_resource path="res://assets/img/city/Middleground 1/Brick2_Arrow_UP.png" type="Texture" id=38]
+[ext_resource path="res://assets/img/city/Middleground 1/Brick_roof_2.png" type="Texture" id=39]
+[ext_resource path="res://assets/img/city/Middleground 1/Brick3_brocken2.png" type="Texture" id=40]
+[ext_resource path="res://assets/img/city/Middleground 1/roof_edge_L.png" type="Texture" id=41]
+[ext_resource path="res://assets/img/city/Middleground 1/roof_edge_R.png" type="Texture" id=42]
+[ext_resource path="res://assets/img/city/Middleground 1/Brick3.png" type="Texture" id=43]
+[ext_resource path="res://assets/img/city/Middleground 1/Brik3_edge_R.png" type="Texture" id=44]
+[ext_resource path="res://assets/img/city/Middleground 1/Brick3_brocken1.png" type="Texture" id=45]
+[ext_resource path="res://assets/img/city/Middleground 1/iron_edge.png" type="Texture" id=46]
+[ext_resource path="res://assets/img/city/Middleground 1/grid_danger.png" type="Texture" id=47]
+[ext_resource path="res://assets/img/city/Middleground 1/iron_roof_edge_L.png" type="Texture" id=48]
+[ext_resource path="res://assets/img/city/Middleground 1/balcony.png" type="Texture" id=49]
+[ext_resource path="res://assets/img/city/Middleground 1/Brick2_crack1.png" type="Texture" id=50]
+[ext_resource path="res://assets/img/city/Middleground 1/Brick2_with_fungus_edge_R.png" type="Texture" id=51]
+[ext_resource path="res://assets/img/city/Middleground 1/balcony_Broken.png" type="Texture" id=52]
+[ext_resource path="res://assets/img/city/Middleground 1/roof_broken_center.png" type="Texture" id=53]
+[ext_resource path="res://assets/img/city/Middleground 1/roof_broken_R.png" type="Texture" id=54]
+[ext_resource path="res://assets/img/city/Middleground/roof_broken_center.png" type="Texture" id=55]
+[ext_resource path="res://assets/img/city/Middleground 1/balcony_Broken_L.png" type="Texture" id=56]
+[ext_resource path="res://assets/img/city/Middleground/Brick2_crack1.png" type="Texture" id=57]
+[ext_resource path="res://assets/img/city/Middleground/balcony_Broken_L.png" type="Texture" id=58]
+[ext_resource path="res://assets/img/city/Middleground/Brick2_blood1.png" type="Texture" id=59]
+[ext_resource path="res://assets/img/city/Middleground/Brick2_crack2.png" type="Texture" id=60]
+[ext_resource path="res://assets/img/city/Middleground 1/Brik3_edge_center_shadow.png" type="Texture" id=61]
+[ext_resource path="res://assets/img/city/Middleground 1/Brick2_with_fungus.png" type="Texture" id=62]
+[ext_resource path="res://assets/img/city/Middleground/Brick2_with_fungus.png" type="Texture" id=63]
+[ext_resource path="res://assets/img/city/Middleground 1/Brick3_arrow_forward.png" type="Texture" id=64]
+[ext_resource path="res://assets/img/city/Middleground 1/Brick3_2.png" type="Texture" id=65]
+[ext_resource path="res://assets/img/city/Middleground 1/Brik3_edge_L.png" type="Texture" id=66]
+[ext_resource path="res://assets/img/city/Middleground 1/Brick3_arrow_up.png" type="Texture" id=67]
+[ext_resource path="res://assets/img/city/Middleground 1/Brick3_Shadow.png" type="Texture" id=68]
+[ext_resource path="res://assets/img/city/Middleground 1/Brick3_Shadow1.png" type="Texture" id=69]
+[ext_resource path="res://assets/img/city/Middleground/balcony_Broken_R.png" type="Texture" id=70]
+[ext_resource path="res://assets/img/city/Middleground/roof_edge_L.png" type="Texture" id=71]
+[ext_resource path="res://assets/img/city/Middleground 1/roof_edge.png" type="Texture" id=72]
+[ext_resource path="res://assets/img/city/Middleground 1/Brick2_with_fungus_edge_L.png" type="Texture" id=73]
+[ext_resource path="res://assets/img/city/Middleground/Brick_roof_2.png" type="Texture" id=74]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=4]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=5]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=6]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=7]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=8]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=9]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=10]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=11]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=12]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=13]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=14]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=15]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=16]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=17]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=18]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=19]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=20]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=21]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=22]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=23]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=24]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=25]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=26]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=27]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=28]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=29]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=30]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=31]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=32]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=33]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=34]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=35]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=36]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=37]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=38]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=39]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=40]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=41]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=42]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=43]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=44]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=45]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=46]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=47]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=48]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=49]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=50]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=51]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=52]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=53]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=54]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=55]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=56]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=57]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=58]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=59]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=60]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=61]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=62]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=63]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=64]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=65]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=66]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=67]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=68]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=69]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=70]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=71]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=72]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="RectangleShape2D" id=73]
+extents = Vector2( 16, 16 )
+
+[node name="TileSet" type="Node2D"]
+script = ExtResource( 11 )
+
+[node name="Balcony" type="Sprite" parent="."]
+texture = ExtResource( 7 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Balcony"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Balcony/StaticBody2D"]
+shape = SubResource( 1 )
+
+[node name="BalconyBroken" type="Sprite" parent="."]
+texture = ExtResource( 8 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="BalconyBroken"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BalconyBroken/StaticBody2D"]
+shape = SubResource( 2 )
+
+[node name="BalconyBrokenL" type="Sprite" parent="."]
+texture = ExtResource( 58 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="BalconyBrokenL"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BalconyBrokenL/StaticBody2D"]
+shape = SubResource( 3 )
+
+[node name="BalconyBrokenR" type="Sprite" parent="."]
+texture = ExtResource( 70 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="BalconyBrokenR"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BalconyBrokenR/StaticBody2D"]
+shape = SubResource( 4 )
+
+[node name="Brick1" type="Sprite" parent="."]
+texture = ExtResource( 5 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Brick1"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Brick1/StaticBody2D"]
+shape = SubResource( 5 )
+
+[node name="Brick2ArrowForward" type="Sprite" parent="."]
+texture = ExtResource( 2 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Brick2ArrowForward"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Brick2ArrowForward/StaticBody2D"]
+shape = SubResource( 6 )
+
+[node name="Brick2ArrowUp" type="Sprite" parent="."]
+texture = ExtResource( 10 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Brick2ArrowUp"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Brick2ArrowUp/StaticBody2D"]
+shape = SubResource( 7 )
+
+[node name="Brick2Blood1" type="Sprite" parent="."]
+texture = ExtResource( 59 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Brick2Blood1"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Brick2Blood1/StaticBody2D"]
+shape = SubResource( 8 )
+
+[node name="Brick2Crack1" type="Sprite" parent="."]
+texture = ExtResource( 57 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Brick2Crack1"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Brick2Crack1/StaticBody2D"]
+shape = SubResource( 9 )
+
+[node name="Brick2Crack2" type="Sprite" parent="."]
+texture = ExtResource( 60 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Brick2Crack2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Brick2Crack2/StaticBody2D"]
+shape = SubResource( 10 )
+
+[node name="Brick2EdgeBorderL" type="Sprite" parent="."]
+texture = ExtResource( 12 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Brick2EdgeBorderL"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Brick2EdgeBorderL/StaticBody2D"]
+shape = SubResource( 11 )
+
+[node name="Brick2EdgeBorderR" type="Sprite" parent="."]
+texture = ExtResource( 13 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Brick2EdgeBorderR"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Brick2EdgeBorderR/StaticBody2D"]
+shape = SubResource( 12 )
+
+[node name="Brick2WithFungus" type="Sprite" parent="."]
+texture = ExtResource( 63 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Brick2WithFungus"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Brick2WithFungus/StaticBody2D"]
+shape = SubResource( 13 )
+
+[node name="Brick2WithFungusBottomEdge" type="Sprite" parent="."]
+texture = ExtResource( 15 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Brick2WithFungusBottomEdge"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Brick2WithFungusBottomEdge/StaticBody2D"]
+shape = SubResource( 14 )
+
+[node name="Brick2WithFungusEdgeL" type="Sprite" parent="."]
+texture = ExtResource( 16 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Brick2WithFungusEdgeL"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Brick2WithFungusEdgeL/StaticBody2D"]
+shape = SubResource( 15 )
+
+[node name="Brick2WithFungusEdgeR" type="Sprite" parent="."]
+texture = ExtResource( 17 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Brick2WithFungusEdgeR"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Brick2WithFungusEdgeR/StaticBody2D"]
+shape = SubResource( 16 )
+
+[node name="Brick2WithFungusUpperEdge" type="Sprite" parent="."]
+texture = ExtResource( 18 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Brick2WithFungusUpperEdge"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Brick2WithFungusUpperEdge/StaticBody2D"]
+shape = SubResource( 17 )
+
+[node name="BrickRoof1" type="Sprite" parent="."]
+texture = ExtResource( 19 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="BrickRoof1"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BrickRoof1/StaticBody2D"]
+shape = SubResource( 18 )
+
+[node name="BrickRoof2" type="Sprite" parent="."]
+texture = ExtResource( 74 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="BrickRoof2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BrickRoof2/StaticBody2D"]
+shape = SubResource( 19 )
+
+[node name="RoofBrokenCenter" type="Sprite" parent="."]
+texture = ExtResource( 55 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="RoofBrokenCenter"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RoofBrokenCenter/StaticBody2D"]
+shape = SubResource( 20 )
+
+[node name="RoofBrokenL" type="Sprite" parent="."]
+texture = ExtResource( 25 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="RoofBrokenL"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RoofBrokenL/StaticBody2D"]
+shape = SubResource( 21 )
+
+[node name="RoofBrokenR" type="Sprite" parent="."]
+texture = ExtResource( 27 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="RoofBrokenR"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RoofBrokenR/StaticBody2D"]
+shape = SubResource( 22 )
+
+[node name="RoofEdge" type="Sprite" parent="."]
+texture = ExtResource( 28 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="RoofEdge"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RoofEdge/StaticBody2D"]
+shape = SubResource( 23 )
+
+[node name="RoofEdgeL" type="Sprite" parent="."]
+texture = ExtResource( 71 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="RoofEdgeL"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RoofEdgeL/StaticBody2D"]
+shape = SubResource( 24 )
+
+[node name="RoofEdgeR" type="Sprite" parent="."]
+texture = ExtResource( 30 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="RoofEdgeR"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RoofEdgeR/StaticBody2D"]
+shape = SubResource( 25 )
+
+[node name="Balcony2" type="Sprite" parent="."]
+texture = ExtResource( 49 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Balcony2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Balcony2/StaticBody2D"]
+shape = SubResource( 26 )
+
+[node name="BalconyBroken2" type="Sprite" parent="."]
+texture = ExtResource( 52 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="BalconyBroken2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BalconyBroken2/StaticBody2D"]
+shape = SubResource( 27 )
+
+[node name="BalconyBrokenL2" type="Sprite" parent="."]
+texture = ExtResource( 56 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="BalconyBrokenL2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BalconyBrokenL2/StaticBody2D"]
+shape = SubResource( 28 )
+
+[node name="BalconyBrokenR2" type="Sprite" parent="."]
+texture = ExtResource( 33 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="BalconyBrokenR2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BalconyBrokenR2/StaticBody2D"]
+shape = SubResource( 29 )
+
+[node name="BalconyIron" type="Sprite" parent="."]
+texture = ExtResource( 31 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="BalconyIron"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BalconyIron/StaticBody2D"]
+shape = SubResource( 30 )
+
+[node name="BalconyIronStripe" type="Sprite" parent="."]
+texture = ExtResource( 34 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="BalconyIronStripe"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BalconyIronStripe/StaticBody2D"]
+shape = SubResource( 31 )
+
+[node name="Brick2" type="Sprite" parent="."]
+texture = ExtResource( 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Brick2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Brick2/StaticBody2D"]
+shape = SubResource( 32 )
+
+[node name="Brick2ArrowForward2" type="Sprite" parent="."]
+texture = ExtResource( 23 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Brick2ArrowForward2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Brick2ArrowForward2/StaticBody2D"]
+shape = SubResource( 33 )
+
+[node name="Brick2ArrowUp2" type="Sprite" parent="."]
+texture = ExtResource( 38 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Brick2ArrowUp2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Brick2ArrowUp2/StaticBody2D"]
+shape = SubResource( 34 )
+
+[node name="Brick2Blood2" type="Sprite" parent="."]
+texture = ExtResource( 36 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Brick2Blood2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Brick2Blood2/StaticBody2D"]
+shape = SubResource( 35 )
+
+[node name="Brick2Crack3" type="Sprite" parent="."]
+texture = ExtResource( 50 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Brick2Crack3"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Brick2Crack3/StaticBody2D"]
+shape = SubResource( 36 )
+
+[node name="Brick2Crack4" type="Sprite" parent="."]
+texture = ExtResource( 26 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Brick2Crack4"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Brick2Crack4/StaticBody2D"]
+shape = SubResource( 37 )
+
+[node name="Brick2EdgeBorderL2" type="Sprite" parent="."]
+texture = ExtResource( 4 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Brick2EdgeBorderL2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Brick2EdgeBorderL2/StaticBody2D"]
+shape = SubResource( 38 )
+
+[node name="Brick2EdgeBorderR2" type="Sprite" parent="."]
+texture = ExtResource( 24 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Brick2EdgeBorderR2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Brick2EdgeBorderR2/StaticBody2D"]
+shape = SubResource( 39 )
+
+[node name="Brick2WithFungus2" type="Sprite" parent="."]
+texture = ExtResource( 62 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Brick2WithFungus2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Brick2WithFungus2/StaticBody2D"]
+shape = SubResource( 40 )
+
+[node name="Brick2WithFungusBottomEdge2" type="Sprite" parent="."]
+texture = ExtResource( 21 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Brick2WithFungusBottomEdge2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Brick2WithFungusBottomEdge2/StaticBody2D"]
+shape = SubResource( 41 )
+
+[node name="Brick2WithFungusEdgeL2" type="Sprite" parent="."]
+texture = ExtResource( 73 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Brick2WithFungusEdgeL2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Brick2WithFungusEdgeL2/StaticBody2D"]
+shape = SubResource( 42 )
+
+[node name="Brick2WithFungusEdgeR2" type="Sprite" parent="."]
+texture = ExtResource( 51 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Brick2WithFungusEdgeR2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Brick2WithFungusEdgeR2/StaticBody2D"]
+shape = SubResource( 43 )
+
+[node name="Brick2WithFungusUpperEdge2" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Brick2WithFungusUpperEdge2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Brick2WithFungusUpperEdge2/StaticBody2D"]
+shape = SubResource( 44 )
+
+[node name="Brick3" type="Sprite" parent="."]
+texture = ExtResource( 43 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Brick3"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Brick3/StaticBody2D"]
+shape = SubResource( 45 )
+
+[node name="Brick31" type="Sprite" parent="."]
+texture = ExtResource( 20 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Brick31"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Brick31/StaticBody2D"]
+shape = SubResource( 46 )
+
+[node name="Brick32" type="Sprite" parent="."]
+texture = ExtResource( 65 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Brick32"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Brick32/StaticBody2D"]
+shape = SubResource( 47 )
+
+[node name="Brick3ArrowForward" type="Sprite" parent="."]
+texture = ExtResource( 64 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Brick3ArrowForward"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Brick3ArrowForward/StaticBody2D"]
+shape = SubResource( 48 )
+
+[node name="Brick3ArrowUp" type="Sprite" parent="."]
+texture = ExtResource( 67 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Brick3ArrowUp"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Brick3ArrowUp/StaticBody2D"]
+shape = SubResource( 49 )
+
+[node name="Brick3Brocken1" type="Sprite" parent="."]
+texture = ExtResource( 45 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Brick3Brocken1"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Brick3Brocken1/StaticBody2D"]
+shape = SubResource( 50 )
+
+[node name="Brick3Brocken2" type="Sprite" parent="."]
+texture = ExtResource( 40 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Brick3Brocken2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Brick3Brocken2/StaticBody2D"]
+shape = SubResource( 51 )
+
+[node name="Brick3Brocken" type="Sprite" parent="."]
+texture = ExtResource( 3 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Brick3Brocken"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Brick3Brocken/StaticBody2D"]
+shape = SubResource( 52 )
+
+[node name="Brick3Rusty" type="Sprite" parent="."]
+texture = ExtResource( 6 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Brick3Rusty"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Brick3Rusty/StaticBody2D"]
+shape = SubResource( 53 )
+
+[node name="Brick3Shadow1" type="Sprite" parent="."]
+texture = ExtResource( 69 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Brick3Shadow1"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Brick3Shadow1/StaticBody2D"]
+shape = SubResource( 54 )
+
+[node name="Brick3Shadow" type="Sprite" parent="."]
+texture = ExtResource( 68 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Brick3Shadow"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Brick3Shadow/StaticBody2D"]
+shape = SubResource( 55 )
+
+[node name="BrickRoof3" type="Sprite" parent="."]
+texture = ExtResource( 22 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="BrickRoof3"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BrickRoof3/StaticBody2D"]
+shape = SubResource( 56 )
+
+[node name="BrickRoof4" type="Sprite" parent="."]
+texture = ExtResource( 39 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="BrickRoof4"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BrickRoof4/StaticBody2D"]
+shape = SubResource( 57 )
+
+[node name="Brik3EdgeCenterShadow" type="Sprite" parent="."]
+texture = ExtResource( 61 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Brik3EdgeCenterShadow"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Brik3EdgeCenterShadow/StaticBody2D"]
+shape = SubResource( 58 )
+
+[node name="Brik3EdgeL" type="Sprite" parent="."]
+texture = ExtResource( 66 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Brik3EdgeL"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Brik3EdgeL/StaticBody2D"]
+shape = SubResource( 59 )
+
+[node name="Brik3EdgeR" type="Sprite" parent="."]
+texture = ExtResource( 44 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Brik3EdgeR"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Brik3EdgeR/StaticBody2D"]
+shape = SubResource( 60 )
+
+[node name="BrokenGrid" type="Sprite" parent="."]
+texture = ExtResource( 29 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="BrokenGrid"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BrokenGrid/StaticBody2D"]
+shape = SubResource( 61 )
+
+[node name="Grid" type="Sprite" parent="."]
+texture = ExtResource( 37 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Grid"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Grid/StaticBody2D"]
+shape = SubResource( 62 )
+
+[node name="GridDanger" type="Sprite" parent="."]
+texture = ExtResource( 47 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="GridDanger"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="GridDanger/StaticBody2D"]
+shape = SubResource( 63 )
+
+[node name="IronEdge" type="Sprite" parent="."]
+texture = ExtResource( 46 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="IronEdge"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="IronEdge/StaticBody2D"]
+shape = SubResource( 64 )
+
+[node name="IronRoof" type="Sprite" parent="."]
+texture = ExtResource( 9 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="IronRoof"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="IronRoof/StaticBody2D"]
+shape = SubResource( 65 )
+
+[node name="IronRoofEdgeL" type="Sprite" parent="."]
+texture = ExtResource( 48 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="IronRoofEdgeL"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="IronRoofEdgeL/StaticBody2D"]
+shape = SubResource( 66 )
+
+[node name="IronRoofEdgeR" type="Sprite" parent="."]
+texture = ExtResource( 14 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="IronRoofEdgeR"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="IronRoofEdgeR/StaticBody2D"]
+shape = SubResource( 67 )
+
+[node name="RoofBrokenCenter2" type="Sprite" parent="."]
+texture = ExtResource( 53 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="RoofBrokenCenter2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RoofBrokenCenter2/StaticBody2D"]
+shape = SubResource( 68 )
+
+[node name="RoofBrokenL2" type="Sprite" parent="."]
+texture = ExtResource( 35 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="RoofBrokenL2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RoofBrokenL2/StaticBody2D"]
+shape = SubResource( 69 )
+
+[node name="RoofBrokenR2" type="Sprite" parent="."]
+texture = ExtResource( 54 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="RoofBrokenR2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RoofBrokenR2/StaticBody2D"]
+shape = SubResource( 70 )
+
+[node name="RoofEdge2" type="Sprite" parent="."]
+texture = ExtResource( 72 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="RoofEdge2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RoofEdge2/StaticBody2D"]
+shape = SubResource( 71 )
+
+[node name="RoofEdgeL2" type="Sprite" parent="."]
+texture = ExtResource( 41 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="RoofEdgeL2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RoofEdgeL2/StaticBody2D"]
+shape = SubResource( 72 )
+
+[node name="RoofEdgeR2" type="Sprite" parent="."]
+texture = ExtResource( 42 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="RoofEdgeR2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RoofEdgeR2/StaticBody2D"]
+shape = SubResource( 73 )

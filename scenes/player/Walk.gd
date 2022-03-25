@@ -7,7 +7,7 @@ func on_timers_register() -> void:
 
 
 func on_enter(player) -> void:
-	print_debug("State Walk enterd")
+#	print_debug("State Walk enterd")
 	player.get_node("AnimatedSprite").play("Walk")
 
 func on_input(player, event: InputEvent) -> void:

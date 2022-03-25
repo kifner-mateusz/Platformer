@@ -1,7 +1,7 @@
 extends State
 
 func on_enter(player) -> void:
-	print_debug("State Idle enterd")
+#	print_debug("State Idle enterd")
 	player.get_node("AnimatedSprite").play("Walk")
 	
 

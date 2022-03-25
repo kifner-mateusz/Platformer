@@ -9,11 +9,6 @@
 config_version=4
 
 _global_script_classes=[ {
-"base": "Node",
-"class": "BaseCoin",
-"language": "GDScript",
-"path": "res://fsm_demo/entities/coin/scripts/base_coin.gd"
-}, {
 "base": "Control",
 "class": "Cell",
 "language": "GDScript",
@@ -44,11 +39,6 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://addons/gd-sheets/scripts/cell_reference.gd"
 }, {
-"base": "BaseCoin",
-"class": "Coin",
-"language": "GDScript",
-"path": "res://fsm_demo/entities/coin/scripts/coin.gd"
-}, {
 "base": "Node",
 "class": "FSM",
 "language": "GDScript",
@@ -72,7 +62,7 @@ _global_script_classes=[ {
 "base": "KinematicBody2D",
 "class": "Player",
 "language": "GDScript",
-"path": "res://fsm_demo/entities/player/scripts/player.gd"
+"path": "res://scenes/player/Player.gd"
 }, {
 "base": "Reference",
 "class": "SfxrGenerator",
@@ -150,14 +140,12 @@ _global_script_classes=[ {
 "path": "res://addons/hyperlog/value_tracker.gd"
 } ]
 _global_script_class_icons={
-"BaseCoin": "",
 "Cell": "",
 "CellData": "",
 "CellHeader": "",
 "CellID": "",
 "CellOrigo": "",
 "CellReference": "",
-"Coin": "",
 "FSM": "res://addons/node_fsm_plugin/fsm_icon.svg",
 "GDSUtil": "",
 "GDSheets": "",

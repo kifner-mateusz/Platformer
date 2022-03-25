@@ -13,9 +13,10 @@ extends Node
 
 # Credits
 # player sprite http://bevouliin.com/ 
-# city tile set Iaavis, Gassasin
+# city tileset laavis https://opengameart.org/content/2d-pixel-city-pack
+# city tileset knik1985 https://opengameart.org/users/knik1985
 
 func _ready():
 	pass 
 
-#ezeawada
+
