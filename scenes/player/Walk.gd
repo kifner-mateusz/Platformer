@@ -18,8 +18,7 @@ func on_input(player, event: InputEvent) -> void:
 func on_physics_process(player, delta: float) -> void:
 	player.update_direction()
 	player.velocity.y+=player.GRAVITY * delta
-	if(Input.is_action_just_pressed("jump")):
-		go_to("Jump")
+	
 	player.move()
 	
 	if player.is_on_floor():

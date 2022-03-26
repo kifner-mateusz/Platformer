@@ -22,5 +22,7 @@ func on_physics_process(player, delta: float) -> void:
 		player.velocity.y += -player.JUMP_FORCE
 
 	player.move()
+	player.get_node("AnimatedSprite").speed_scale = smoothstep(10,player.SPEED,abs(player.velocity.x) )
+	player.get_node("AnimatedSprite").flip_h = player.velocity.x < 0
 	if target.is_on_ceiling():
 		go_to('Falling')
