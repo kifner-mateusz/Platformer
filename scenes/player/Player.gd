@@ -1,6 +1,6 @@
 extends KinematicBody2D
 class_name Player
-
+signal death
 const SPEED := 100
 const JUMP_FORCE := 60
 const GRAVITY := 600
@@ -29,3 +29,6 @@ func move():
 
 	velocity=move_and_slide(velocity,Vector2.UP)
 	
+func death():
+	$FSM.go_to('Death')
+	emit_signal("death")
