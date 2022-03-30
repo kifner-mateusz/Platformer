@@ -8,17 +8,14 @@ const DEFAULT_FALL_SPEED := 0.1
 const FRICTION := 0.1
 const ACCELERATION := 0.25
 
-var direction: int = 0
+var direction: float = 0
 var velocity := Vector2.ZERO
 
 func update_direction() -> void:
-	direction = 0
+	direction = Input.get_axis("left","right")
 
-	if Input.is_action_pressed('right'):
-		direction += 1
 
-	if Input.is_action_pressed('left'):
-		direction -= 1
+
 
 
 func move():
