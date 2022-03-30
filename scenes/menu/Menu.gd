@@ -16,3 +16,7 @@ func _on_Quit_pressed():
 
 func _on_Settings_pressed():
 	$Settings.popup_centered()
+
+
+func _on_Levels_pressed():
+	$Levels.popup_centered()
