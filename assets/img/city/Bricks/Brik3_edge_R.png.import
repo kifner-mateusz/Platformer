@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture_atlas"
+type="Texture"
+path="res://.import/Brik3_edge_R.png-36defba2413e30aa1bfeb7022ea0d79b.res"
+group_file="res://assets/img/city/Bricks.png"
+valid=true
+[deps]
+
+
+source_file="res://assets/img/city/Bricks/Brik3_edge_R.png"
+dest_files=[ "res://.import/Brik3_edge_R.png-36defba2413e30aa1bfeb7022ea0d79b.res" ]
+
+[params]
+
+atlas_file="res://assets/img/city/Bricks.png"
+import_mode=0
+crop_to_region=false

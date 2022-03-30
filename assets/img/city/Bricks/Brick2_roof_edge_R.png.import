@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture_atlas"
+type="Texture"
+path="res://.import/Brick2_roof_edge_R.png-f4833284bef7b38d31f42245b73c1f4d.res"
+group_file="res://assets/img/city/Bricks.png"
+valid=true
+[deps]
+
+
+source_file="res://assets/img/city/Bricks/Brick2_roof_edge_R.png"
+dest_files=[ "res://.import/Brick2_roof_edge_R.png-f4833284bef7b38d31f42245b73c1f4d.res" ]
+
+[params]
+
+atlas_file="res://assets/img/city/Bricks.png"
+import_mode=0
+crop_to_region=false

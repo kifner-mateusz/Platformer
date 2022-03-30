@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture_atlas"
+type="Texture"
+path="res://.import/balcony_iron_stripe.png-19705e2bcfb50d399b24943a9410dbcd.res"
+group_file="res://assets/img/city/Bricks.png"
+valid=true
+[deps]
+
+
+source_file="res://assets/img/city/Bricks/balcony_iron_stripe.png"
+dest_files=[ "res://.import/balcony_iron_stripe.png-19705e2bcfb50d399b24943a9410dbcd.res" ]
+
+[params]
+
+atlas_file="res://assets/img/city/Bricks.png"
+import_mode=0
+crop_to_region=false

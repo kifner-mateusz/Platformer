@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture_atlas"
+type="Texture"
+path="res://.import/Brick3_arrow_up.png-de4ed37ae41976f70446f8249f871be5.res"
+group_file="res://assets/img/city/Bricks.png"
+valid=true
+[deps]
+
+
+source_file="res://assets/img/city/Bricks/Brick3_arrow_up.png"
+dest_files=[ "res://.import/Brick3_arrow_up.png-de4ed37ae41976f70446f8249f871be5.res" ]
+
+[params]
+
+atlas_file="res://assets/img/city/Bricks.png"
+import_mode=0
+crop_to_region=false

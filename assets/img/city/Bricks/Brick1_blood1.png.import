@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture_atlas"
+type="Texture"
+path="res://.import/Brick1_blood1.png-631534641dc8d681f555ba886dc9547a.res"
+group_file="res://assets/img/city/Bricks.png"
+valid=true
+[deps]
+
+
+source_file="res://assets/img/city/Bricks/Brick1_blood1.png"
+dest_files=[ "res://.import/Brick1_blood1.png-631534641dc8d681f555ba886dc9547a.res" ]
+
+[params]
+
+atlas_file="res://assets/img/city/Bricks.png"
+import_mode=0
+crop_to_region=false

@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture_atlas"
+type="Texture"
+path="res://.import/Brick1_with_fungus_edge_R.png-b5487c625c98f7c00cf22a33f48ab372.res"
+group_file="res://assets/img/city/Bricks.png"
+valid=true
+[deps]
+
+
+source_file="res://assets/img/city/Bricks/Brick1_with_fungus_edge_R.png"
+dest_files=[ "res://.import/Brick1_with_fungus_edge_R.png-b5487c625c98f7c00cf22a33f48ab372.res" ]
+
+[params]
+
+atlas_file="res://assets/img/city/Bricks.png"
+import_mode=0
+crop_to_region=false

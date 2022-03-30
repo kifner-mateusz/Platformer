@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture_atlas"
+type="Texture"
+path="res://.import/Brick3_Shadow1.png-67a979c3fef1bccd68d7bfe2ed162272.res"
+group_file="res://assets/img/city/Bricks.png"
+valid=true
+[deps]
+
+
+source_file="res://assets/img/city/Bricks/Brick3_Shadow1.png"
+dest_files=[ "res://.import/Brick3_Shadow1.png-67a979c3fef1bccd68d7bfe2ed162272.res" ]
+
+[params]
+
+atlas_file="res://assets/img/city/Bricks.png"
+import_mode=0
+crop_to_region=false

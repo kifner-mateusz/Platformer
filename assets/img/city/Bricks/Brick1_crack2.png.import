@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture_atlas"
+type="Texture"
+path="res://.import/Brick1_crack2.png-e03b24e82fb7aa0cde2a428c0ee1635f.res"
+group_file="res://assets/img/city/Bricks.png"
+valid=true
+[deps]
+
+
+source_file="res://assets/img/city/Bricks/Brick1_crack2.png"
+dest_files=[ "res://.import/Brick1_crack2.png-e03b24e82fb7aa0cde2a428c0ee1635f.res" ]
+
+[params]
+
+atlas_file="res://assets/img/city/Bricks.png"
+import_mode=0
+crop_to_region=false

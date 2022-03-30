@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture_atlas"
+type="Texture"
+path="res://.import/iron_roof_edge_R.png-a3cc0cc54b26af3cc02efc7dde40b9ed.res"
+group_file="res://assets/img/city/Bricks.png"
+valid=true
+[deps]
+
+
+source_file="res://assets/img/city/Bricks/iron_roof_edge_R.png"
+dest_files=[ "res://.import/iron_roof_edge_R.png-a3cc0cc54b26af3cc02efc7dde40b9ed.res" ]
+
+[params]
+
+atlas_file="res://assets/img/city/Bricks.png"
+import_mode=0
+crop_to_region=false

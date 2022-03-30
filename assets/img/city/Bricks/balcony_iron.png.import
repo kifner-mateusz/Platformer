@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture_atlas"
+type="Texture"
+path="res://.import/balcony_iron.png-dae27135835d653d336c0735f4fe72bb.res"
+group_file="res://assets/img/city/Bricks.png"
+valid=true
+[deps]
+
+
+source_file="res://assets/img/city/Bricks/balcony_iron.png"
+dest_files=[ "res://.import/balcony_iron.png-dae27135835d653d336c0735f4fe72bb.res" ]
+
+[params]
+
+atlas_file="res://assets/img/city/Bricks.png"
+import_mode=0
+crop_to_region=false

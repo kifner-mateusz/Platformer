@@ -1,79 +1,79 @@
 [gd_scene load_steps=148 format=2]
 
-[ext_resource path="res://assets/img/city/Middleground 1/Brick2_with_fungus_upper_edge.png" type="Texture" id=1]
-[ext_resource path="res://assets/img/city/Middleground/Brick2_Arrow_Forward.png" type="Texture" id=2]
-[ext_resource path="res://assets/img/city/Middleground 1/Brick3_brocken.png" type="Texture" id=3]
-[ext_resource path="res://assets/img/city/Middleground 1/Brick2_edge_border_L.png" type="Texture" id=4]
-[ext_resource path="res://assets/img/city/Middleground/Brick1.png" type="Texture" id=5]
-[ext_resource path="res://assets/img/city/Middleground 1/Brick3_Rusty.png" type="Texture" id=6]
-[ext_resource path="res://assets/img/city/Middleground/balcony.png" type="Texture" id=7]
-[ext_resource path="res://assets/img/city/Middleground/balcony_Broken.png" type="Texture" id=8]
-[ext_resource path="res://assets/img/city/Middleground 1/iron_roof.png" type="Texture" id=9]
-[ext_resource path="res://assets/img/city/Middleground/Brick2_Arrow_UP.png" type="Texture" id=10]
+[ext_resource path="res://assets/img/city/Bricks/Brick1_Arrow_UP.png" type="Texture" id=1]
+[ext_resource path="res://assets/img/city/Bricks/Brick1_blood1.png" type="Texture" id=2]
+[ext_resource path="res://assets/img/city/Bricks/Brick3_brocken.png" type="Texture" id=3]
+[ext_resource path="res://assets/img/city/Bricks/Brick1_with_fungus_edge_R.png" type="Texture" id=4]
+[ext_resource path="res://assets/img/city/Bricks/Brick1.png" type="Texture" id=5]
+[ext_resource path="res://assets/img/city/Bricks/Brick3_Rusty.png" type="Texture" id=6]
+[ext_resource path="res://assets/img/city/Bricks/Balcony1.png" type="Texture" id=7]
+[ext_resource path="res://assets/img/city/Bricks/Balcony1_Broken.png" type="Texture" id=8]
+[ext_resource path="res://assets/img/city/Bricks/iron_roof.png" type="Texture" id=9]
+[ext_resource path="res://assets/img/city/Bricks/Brick1_crack1.png" type="Texture" id=10]
 [ext_resource path="res://scenes/levels/TileSet.gd" type="Script" id=11]
-[ext_resource path="res://assets/img/city/Middleground/Brick2_edge_border_L.png" type="Texture" id=12]
-[ext_resource path="res://assets/img/city/Middleground/Brick2_edge_border_R.png" type="Texture" id=13]
-[ext_resource path="res://assets/img/city/Middleground 1/iron_roof_edge_R.png" type="Texture" id=14]
-[ext_resource path="res://assets/img/city/Middleground/Brick2_with_fungus_bottom_edge.png" type="Texture" id=15]
-[ext_resource path="res://assets/img/city/Middleground/Brick2_with_fungus_edge_L.png" type="Texture" id=16]
-[ext_resource path="res://assets/img/city/Middleground/Brick2_with_fungus_edge_R.png" type="Texture" id=17]
-[ext_resource path="res://assets/img/city/Middleground/Brick2_with_fungus_upper_edge.png" type="Texture" id=18]
-[ext_resource path="res://assets/img/city/Middleground/Brick_roof_1.png" type="Texture" id=19]
-[ext_resource path="res://assets/img/city/Middleground 1/Brick3_1.png" type="Texture" id=20]
-[ext_resource path="res://assets/img/city/Middleground 1/Brick2_with_fungus_bottom_edge.png" type="Texture" id=21]
-[ext_resource path="res://assets/img/city/Middleground 1/Brick_roof_1.png" type="Texture" id=22]
-[ext_resource path="res://assets/img/city/Middleground 1/Brick2_Arrow_Forward.png" type="Texture" id=23]
-[ext_resource path="res://assets/img/city/Middleground 1/Brick2_edge_border_R.png" type="Texture" id=24]
-[ext_resource path="res://assets/img/city/Middleground/roof_broken_L.png" type="Texture" id=25]
-[ext_resource path="res://assets/img/city/Middleground 1/Brick2_crack2.png" type="Texture" id=26]
-[ext_resource path="res://assets/img/city/Middleground/roof_broken_R.png" type="Texture" id=27]
-[ext_resource path="res://assets/img/city/Middleground/roof_edge.png" type="Texture" id=28]
-[ext_resource path="res://assets/img/city/Middleground 1/broken_grid.png" type="Texture" id=29]
-[ext_resource path="res://assets/img/city/Middleground/roof_edge_R.png" type="Texture" id=30]
-[ext_resource path="res://assets/img/city/Middleground 1/balcony_iron.png" type="Texture" id=31]
-[ext_resource path="res://assets/img/city/Middleground 1/Brick2.png" type="Texture" id=32]
-[ext_resource path="res://assets/img/city/Middleground 1/balcony_Broken_R.png" type="Texture" id=33]
-[ext_resource path="res://assets/img/city/Middleground 1/balcony_iron_stripe.png" type="Texture" id=34]
-[ext_resource path="res://assets/img/city/Middleground 1/roof_broken_L.png" type="Texture" id=35]
-[ext_resource path="res://assets/img/city/Middleground 1/Brick2_blood1.png" type="Texture" id=36]
-[ext_resource path="res://assets/img/city/Middleground 1/grid.png" type="Texture" id=37]
-[ext_resource path="res://assets/img/city/Middleground 1/Brick2_Arrow_UP.png" type="Texture" id=38]
-[ext_resource path="res://assets/img/city/Middleground 1/Brick_roof_2.png" type="Texture" id=39]
-[ext_resource path="res://assets/img/city/Middleground 1/Brick3_brocken2.png" type="Texture" id=40]
-[ext_resource path="res://assets/img/city/Middleground 1/roof_edge_L.png" type="Texture" id=41]
-[ext_resource path="res://assets/img/city/Middleground 1/roof_edge_R.png" type="Texture" id=42]
-[ext_resource path="res://assets/img/city/Middleground 1/Brick3.png" type="Texture" id=43]
-[ext_resource path="res://assets/img/city/Middleground 1/Brik3_edge_R.png" type="Texture" id=44]
-[ext_resource path="res://assets/img/city/Middleground 1/Brick3_brocken1.png" type="Texture" id=45]
-[ext_resource path="res://assets/img/city/Middleground 1/iron_edge.png" type="Texture" id=46]
-[ext_resource path="res://assets/img/city/Middleground 1/grid_danger.png" type="Texture" id=47]
-[ext_resource path="res://assets/img/city/Middleground 1/iron_roof_edge_L.png" type="Texture" id=48]
-[ext_resource path="res://assets/img/city/Middleground 1/balcony.png" type="Texture" id=49]
-[ext_resource path="res://assets/img/city/Middleground 1/Brick2_crack1.png" type="Texture" id=50]
-[ext_resource path="res://assets/img/city/Middleground 1/Brick2_with_fungus_edge_R.png" type="Texture" id=51]
-[ext_resource path="res://assets/img/city/Middleground 1/balcony_Broken.png" type="Texture" id=52]
-[ext_resource path="res://assets/img/city/Middleground 1/roof_broken_center.png" type="Texture" id=53]
-[ext_resource path="res://assets/img/city/Middleground 1/roof_broken_R.png" type="Texture" id=54]
-[ext_resource path="res://assets/img/city/Middleground/roof_broken_center.png" type="Texture" id=55]
-[ext_resource path="res://assets/img/city/Middleground 1/balcony_Broken_L.png" type="Texture" id=56]
-[ext_resource path="res://assets/img/city/Middleground/Brick2_crack1.png" type="Texture" id=57]
-[ext_resource path="res://assets/img/city/Middleground/balcony_Broken_L.png" type="Texture" id=58]
-[ext_resource path="res://assets/img/city/Middleground/Brick2_blood1.png" type="Texture" id=59]
-[ext_resource path="res://assets/img/city/Middleground/Brick2_crack2.png" type="Texture" id=60]
-[ext_resource path="res://assets/img/city/Middleground 1/Brik3_edge_center_shadow.png" type="Texture" id=61]
-[ext_resource path="res://assets/img/city/Middleground 1/Brick2_with_fungus.png" type="Texture" id=62]
-[ext_resource path="res://assets/img/city/Middleground/Brick2_with_fungus.png" type="Texture" id=63]
-[ext_resource path="res://assets/img/city/Middleground 1/Brick3_arrow_forward.png" type="Texture" id=64]
-[ext_resource path="res://assets/img/city/Middleground 1/Brick3_2.png" type="Texture" id=65]
-[ext_resource path="res://assets/img/city/Middleground 1/Brik3_edge_L.png" type="Texture" id=66]
-[ext_resource path="res://assets/img/city/Middleground 1/Brick3_arrow_up.png" type="Texture" id=67]
-[ext_resource path="res://assets/img/city/Middleground 1/Brick3_Shadow.png" type="Texture" id=68]
-[ext_resource path="res://assets/img/city/Middleground 1/Brick3_Shadow1.png" type="Texture" id=69]
-[ext_resource path="res://assets/img/city/Middleground/balcony_Broken_R.png" type="Texture" id=70]
-[ext_resource path="res://assets/img/city/Middleground/roof_edge_L.png" type="Texture" id=71]
-[ext_resource path="res://assets/img/city/Middleground 1/roof_edge.png" type="Texture" id=72]
-[ext_resource path="res://assets/img/city/Middleground 1/Brick2_with_fungus_edge_L.png" type="Texture" id=73]
-[ext_resource path="res://assets/img/city/Middleground/Brick_roof_2.png" type="Texture" id=74]
+[ext_resource path="res://assets/img/city/Bricks/Brick2_edge_border_L.png" type="Texture" id=12]
+[ext_resource path="res://assets/img/city/Foreground/grid_danger.png" type="Texture" id=13]
+[ext_resource path="res://assets/img/city/Bricks/iron_roof_edge_R.png" type="Texture" id=14]
+[ext_resource path="res://assets/img/city/Bricks/Brick1_edge_border_L.png" type="Texture" id=15]
+[ext_resource path="res://assets/img/city/Bricks/Brick1_Arrow_Forward.png" type="Texture" id=16]
+[ext_resource path="res://assets/img/city/Bricks/Balcony1_Broken_R.png" type="Texture" id=17]
+[ext_resource path="res://assets/img/city/Bricks/Brick2_with_fungus_upper_edge.png" type="Texture" id=18]
+[ext_resource path="res://assets/img/city/Bricks/Brick1_roof_1.png" type="Texture" id=19]
+[ext_resource path="res://assets/img/city/Bricks/Brick3_1.png" type="Texture" id=20]
+[ext_resource path="res://assets/img/city/Bricks/Brick2_with_fungus_bottom_edge.png" type="Texture" id=21]
+[ext_resource path="res://assets/img/city/Bricks/Brick2_roof_1.png" type="Texture" id=22]
+[ext_resource path="res://assets/img/city/Bricks/Brick2_Arrow_Forward.png" type="Texture" id=23]
+[ext_resource path="res://assets/img/city/Bricks/Brick2_edge_border_R.png" type="Texture" id=24]
+[ext_resource path="res://assets/img/city/Bricks/Brick1_roof_broken_L.png" type="Texture" id=25]
+[ext_resource path="res://assets/img/city/Bricks/Brick1_edge_border_R.png" type="Texture" id=26]
+[ext_resource path="res://assets/img/city/Bricks/Brick1_roof_broken_R.png" type="Texture" id=27]
+[ext_resource path="res://assets/img/city/Bricks/Brick1_roof_edge.png" type="Texture" id=28]
+[ext_resource path="res://assets/img/city/Bricks/broken_grid.png" type="Texture" id=29]
+[ext_resource path="res://assets/img/city/Bricks/Brick1_roof_edge_R.png" type="Texture" id=30]
+[ext_resource path="res://assets/img/city/Bricks/balcony_iron.png" type="Texture" id=31]
+[ext_resource path="res://assets/img/city/Bricks/Brick2.png" type="Texture" id=32]
+[ext_resource path="res://assets/img/city/Bricks/Balcony2_Broken_R.png" type="Texture" id=33]
+[ext_resource path="res://assets/img/city/Bricks/balcony_iron_stripe.png" type="Texture" id=34]
+[ext_resource path="res://assets/img/city/Bricks/Brick2_roof_broken_L.png" type="Texture" id=35]
+[ext_resource path="res://assets/img/city/Bricks/Brick1_with_fungus_edge_L.png" type="Texture" id=36]
+[ext_resource path="res://assets/img/city/Foreground/grid.png" type="Texture" id=37]
+[ext_resource path="res://assets/img/city/Bricks/Brick2_Arrow_UP.png" type="Texture" id=38]
+[ext_resource path="res://assets/img/city/Bricks/Brick2_roof_2.png" type="Texture" id=39]
+[ext_resource path="res://assets/img/city/Bricks/Brick3_brocken2.png" type="Texture" id=40]
+[ext_resource path="res://assets/img/city/Bricks/Brick2_roof_edge_L.png" type="Texture" id=41]
+[ext_resource path="res://assets/img/city/Bricks/Brick2_roof_edge_R.png" type="Texture" id=42]
+[ext_resource path="res://assets/img/city/Bricks/Brick3.png" type="Texture" id=43]
+[ext_resource path="res://assets/img/city/Bricks/Brik3_edge_R.png" type="Texture" id=44]
+[ext_resource path="res://assets/img/city/Bricks/Brick3_brocken1.png" type="Texture" id=45]
+[ext_resource path="res://assets/img/city/Bricks/iron_edge.png" type="Texture" id=46]
+[ext_resource path="res://assets/img/city/Bricks/Brick1_crack2.png" type="Texture" id=47]
+[ext_resource path="res://assets/img/city/Bricks/iron_roof_edge_L.png" type="Texture" id=48]
+[ext_resource path="res://assets/img/city/Bricks/Balcony2.png" type="Texture" id=49]
+[ext_resource path="res://assets/img/city/Bricks/Brick1_with_fungus_bottom_edge.png" type="Texture" id=50]
+[ext_resource path="res://assets/img/city/Bricks/Brick2_with_fungus_edge_R.png" type="Texture" id=51]
+[ext_resource path="res://assets/img/city/Bricks/Balcony2_Broken.png" type="Texture" id=52]
+[ext_resource path="res://assets/img/city/Bricks/Brick2_roof_broken_center.png" type="Texture" id=53]
+[ext_resource path="res://assets/img/city/Bricks/Brick2_roof_broken_R.png" type="Texture" id=54]
+[ext_resource path="res://assets/img/city/Bricks/Brick1_roof_broken_center.png" type="Texture" id=55]
+[ext_resource path="res://assets/img/city/Bricks/Balcony2_Broken_L.png" type="Texture" id=56]
+[ext_resource path="res://assets/img/city/Bricks/Brick2_crack1.png" type="Texture" id=57]
+[ext_resource path="res://assets/img/city/Bricks/Balcony1_Broken_L.png" type="Texture" id=58]
+[ext_resource path="res://assets/img/city/Bricks/Brick2_blood1.png" type="Texture" id=59]
+[ext_resource path="res://assets/img/city/Bricks/Brick2_crack2.png" type="Texture" id=60]
+[ext_resource path="res://assets/img/city/Bricks/Brik3_edge_center_shadow.png" type="Texture" id=61]
+[ext_resource path="res://assets/img/city/Bricks/Brick1_with_fungus.png" type="Texture" id=62]
+[ext_resource path="res://assets/img/city/Bricks/Brick2_with_fungus.png" type="Texture" id=63]
+[ext_resource path="res://assets/img/city/Bricks/Brick3_arrow_forward.png" type="Texture" id=64]
+[ext_resource path="res://assets/img/city/Bricks/Brick3_2.png" type="Texture" id=65]
+[ext_resource path="res://assets/img/city/Bricks/Brik3_edge_L.png" type="Texture" id=66]
+[ext_resource path="res://assets/img/city/Bricks/Brick3_arrow_up.png" type="Texture" id=67]
+[ext_resource path="res://assets/img/city/Bricks/Brick3_Shadow.png" type="Texture" id=68]
+[ext_resource path="res://assets/img/city/Bricks/Brick3_Shadow1.png" type="Texture" id=69]
+[ext_resource path="res://assets/img/city/Bricks/Brick1_with_fungus_upper_edge.png" type="Texture" id=70]
+[ext_resource path="res://assets/img/city/Bricks/Brick1_roof_edge_L.png" type="Texture" id=71]
+[ext_resource path="res://assets/img/city/Bricks/Brick2_roof_edge.png" type="Texture" id=72]
+[ext_resource path="res://assets/img/city/Bricks/Brick2_with_fungus_edge_L.png" type="Texture" id=73]
+[ext_resource path="res://assets/img/city/Bricks/Brick1_roof_2.png" type="Texture" id=74]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 16, 16 )
@@ -306,6 +306,7 @@ texture = ExtResource( 7 )
 shape = SubResource( 1 )
 
 [node name="BalconyBroken" type="Sprite" parent="."]
+position = Vector2( 42, 0 )
 texture = ExtResource( 8 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="BalconyBroken"]
@@ -314,6 +315,7 @@ texture = ExtResource( 8 )
 shape = SubResource( 2 )
 
 [node name="BalconyBrokenL" type="Sprite" parent="."]
+position = Vector2( 84, 0 )
 texture = ExtResource( 58 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="BalconyBrokenL"]
@@ -322,7 +324,8 @@ texture = ExtResource( 58 )
 shape = SubResource( 3 )
 
 [node name="BalconyBrokenR" type="Sprite" parent="."]
-texture = ExtResource( 70 )
+position = Vector2( 126, 0 )
+texture = ExtResource( 17 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="BalconyBrokenR"]
 
@@ -330,6 +333,7 @@ texture = ExtResource( 70 )
 shape = SubResource( 4 )
 
 [node name="Brick1" type="Sprite" parent="."]
+position = Vector2( 168, 0 )
 texture = ExtResource( 5 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Brick1"]
@@ -338,7 +342,8 @@ texture = ExtResource( 5 )
 shape = SubResource( 5 )
 
 [node name="Brick2ArrowForward" type="Sprite" parent="."]
-texture = ExtResource( 2 )
+position = Vector2( 210, 0 )
+texture = ExtResource( 16 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Brick2ArrowForward"]
 
@@ -346,7 +351,8 @@ texture = ExtResource( 2 )
 shape = SubResource( 6 )
 
 [node name="Brick2ArrowUp" type="Sprite" parent="."]
-texture = ExtResource( 10 )
+position = Vector2( 252, 0 )
+texture = ExtResource( 1 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Brick2ArrowUp"]
 
@@ -354,7 +360,8 @@ texture = ExtResource( 10 )
 shape = SubResource( 7 )
 
 [node name="Brick2Blood1" type="Sprite" parent="."]
-texture = ExtResource( 59 )
+position = Vector2( 294, 0 )
+texture = ExtResource( 2 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Brick2Blood1"]
 
@@ -362,7 +369,8 @@ texture = ExtResource( 59 )
 shape = SubResource( 8 )
 
 [node name="Brick2Crack1" type="Sprite" parent="."]
-texture = ExtResource( 57 )
+position = Vector2( 336, 0 )
+texture = ExtResource( 10 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Brick2Crack1"]
 
@@ -370,7 +378,8 @@ texture = ExtResource( 57 )
 shape = SubResource( 9 )
 
 [node name="Brick2Crack2" type="Sprite" parent="."]
-texture = ExtResource( 60 )
+position = Vector2( 378, 0 )
+texture = ExtResource( 47 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Brick2Crack2"]
 
@@ -378,7 +387,8 @@ texture = ExtResource( 60 )
 shape = SubResource( 10 )
 
 [node name="Brick2EdgeBorderL" type="Sprite" parent="."]
-texture = ExtResource( 12 )
+position = Vector2( 420, 0 )
+texture = ExtResource( 15 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Brick2EdgeBorderL"]
 
@@ -386,7 +396,8 @@ texture = ExtResource( 12 )
 shape = SubResource( 11 )
 
 [node name="Brick2EdgeBorderR" type="Sprite" parent="."]
-texture = ExtResource( 13 )
+position = Vector2( 462, 0 )
+texture = ExtResource( 26 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Brick2EdgeBorderR"]
 
@@ -394,7 +405,8 @@ texture = ExtResource( 13 )
 shape = SubResource( 12 )
 
 [node name="Brick2WithFungus" type="Sprite" parent="."]
-texture = ExtResource( 63 )
+position = Vector2( 504, 0 )
+texture = ExtResource( 62 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Brick2WithFungus"]
 
@@ -402,7 +414,8 @@ texture = ExtResource( 63 )
 shape = SubResource( 13 )
 
 [node name="Brick2WithFungusBottomEdge" type="Sprite" parent="."]
-texture = ExtResource( 15 )
+position = Vector2( 546, 0 )
+texture = ExtResource( 50 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Brick2WithFungusBottomEdge"]
 
@@ -410,7 +423,8 @@ texture = ExtResource( 15 )
 shape = SubResource( 14 )
 
 [node name="Brick2WithFungusEdgeL" type="Sprite" parent="."]
-texture = ExtResource( 16 )
+position = Vector2( 588, 0 )
+texture = ExtResource( 36 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Brick2WithFungusEdgeL"]
 
@@ -418,7 +432,8 @@ texture = ExtResource( 16 )
 shape = SubResource( 15 )
 
 [node name="Brick2WithFungusEdgeR" type="Sprite" parent="."]
-texture = ExtResource( 17 )
+position = Vector2( 630, 0 )
+texture = ExtResource( 4 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Brick2WithFungusEdgeR"]
 
@@ -426,7 +441,8 @@ texture = ExtResource( 17 )
 shape = SubResource( 16 )
 
 [node name="Brick2WithFungusUpperEdge" type="Sprite" parent="."]
-texture = ExtResource( 18 )
+position = Vector2( 672, 0 )
+texture = ExtResource( 70 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Brick2WithFungusUpperEdge"]
 
@@ -434,6 +450,7 @@ texture = ExtResource( 18 )
 shape = SubResource( 17 )
 
 [node name="BrickRoof1" type="Sprite" parent="."]
+position = Vector2( 714, 0 )
 texture = ExtResource( 19 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="BrickRoof1"]
@@ -442,6 +459,7 @@ texture = ExtResource( 19 )
 shape = SubResource( 18 )
 
 [node name="BrickRoof2" type="Sprite" parent="."]
+position = Vector2( 756, 0 )
 texture = ExtResource( 74 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="BrickRoof2"]
@@ -450,6 +468,7 @@ texture = ExtResource( 74 )
 shape = SubResource( 19 )
 
 [node name="RoofBrokenCenter" type="Sprite" parent="."]
+position = Vector2( 798, 0 )
 texture = ExtResource( 55 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="RoofBrokenCenter"]
@@ -458,6 +477,7 @@ texture = ExtResource( 55 )
 shape = SubResource( 20 )
 
 [node name="RoofBrokenL" type="Sprite" parent="."]
+position = Vector2( 840, 0 )
 texture = ExtResource( 25 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="RoofBrokenL"]
@@ -466,6 +486,7 @@ texture = ExtResource( 25 )
 shape = SubResource( 21 )
 
 [node name="RoofBrokenR" type="Sprite" parent="."]
+position = Vector2( 882, 0 )
 texture = ExtResource( 27 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="RoofBrokenR"]
@@ -474,6 +495,7 @@ texture = ExtResource( 27 )
 shape = SubResource( 22 )
 
 [node name="RoofEdge" type="Sprite" parent="."]
+position = Vector2( 924, 0 )
 texture = ExtResource( 28 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="RoofEdge"]
@@ -482,6 +504,7 @@ texture = ExtResource( 28 )
 shape = SubResource( 23 )
 
 [node name="RoofEdgeL" type="Sprite" parent="."]
+position = Vector2( 966, 0 )
 texture = ExtResource( 71 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="RoofEdgeL"]
@@ -490,6 +513,7 @@ texture = ExtResource( 71 )
 shape = SubResource( 24 )
 
 [node name="RoofEdgeR" type="Sprite" parent="."]
+position = Vector2( 1008, 0 )
 texture = ExtResource( 30 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="RoofEdgeR"]
@@ -498,6 +522,7 @@ texture = ExtResource( 30 )
 shape = SubResource( 25 )
 
 [node name="Balcony2" type="Sprite" parent="."]
+position = Vector2( 1050, 0 )
 texture = ExtResource( 49 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Balcony2"]
@@ -506,6 +531,7 @@ texture = ExtResource( 49 )
 shape = SubResource( 26 )
 
 [node name="BalconyBroken2" type="Sprite" parent="."]
+position = Vector2( 1092, 0 )
 texture = ExtResource( 52 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="BalconyBroken2"]
@@ -514,6 +540,7 @@ texture = ExtResource( 52 )
 shape = SubResource( 27 )
 
 [node name="BalconyBrokenL2" type="Sprite" parent="."]
+position = Vector2( 1134, 0 )
 texture = ExtResource( 56 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="BalconyBrokenL2"]
@@ -522,6 +549,7 @@ texture = ExtResource( 56 )
 shape = SubResource( 28 )
 
 [node name="BalconyBrokenR2" type="Sprite" parent="."]
+position = Vector2( 1176, 0 )
 texture = ExtResource( 33 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="BalconyBrokenR2"]
@@ -530,6 +558,7 @@ texture = ExtResource( 33 )
 shape = SubResource( 29 )
 
 [node name="BalconyIron" type="Sprite" parent="."]
+position = Vector2( 1218, 0 )
 texture = ExtResource( 31 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="BalconyIron"]
@@ -538,6 +567,7 @@ texture = ExtResource( 31 )
 shape = SubResource( 30 )
 
 [node name="BalconyIronStripe" type="Sprite" parent="."]
+position = Vector2( 1260, 0 )
 texture = ExtResource( 34 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="BalconyIronStripe"]
@@ -546,6 +576,7 @@ texture = ExtResource( 34 )
 shape = SubResource( 31 )
 
 [node name="Brick2" type="Sprite" parent="."]
+position = Vector2( 1302, 0 )
 texture = ExtResource( 32 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Brick2"]
@@ -554,6 +585,7 @@ texture = ExtResource( 32 )
 shape = SubResource( 32 )
 
 [node name="Brick2ArrowForward2" type="Sprite" parent="."]
+position = Vector2( 1344, 0 )
 texture = ExtResource( 23 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Brick2ArrowForward2"]
@@ -562,6 +594,7 @@ texture = ExtResource( 23 )
 shape = SubResource( 33 )
 
 [node name="Brick2ArrowUp2" type="Sprite" parent="."]
+position = Vector2( 1386, 0 )
 texture = ExtResource( 38 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Brick2ArrowUp2"]
@@ -570,7 +603,8 @@ texture = ExtResource( 38 )
 shape = SubResource( 34 )
 
 [node name="Brick2Blood2" type="Sprite" parent="."]
-texture = ExtResource( 36 )
+position = Vector2( 1428, 0 )
+texture = ExtResource( 59 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Brick2Blood2"]
 
@@ -578,7 +612,8 @@ texture = ExtResource( 36 )
 shape = SubResource( 35 )
 
 [node name="Brick2Crack3" type="Sprite" parent="."]
-texture = ExtResource( 50 )
+position = Vector2( 1470, 0 )
+texture = ExtResource( 57 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Brick2Crack3"]
 
@@ -586,7 +621,8 @@ texture = ExtResource( 50 )
 shape = SubResource( 36 )
 
 [node name="Brick2Crack4" type="Sprite" parent="."]
-texture = ExtResource( 26 )
+position = Vector2( 1512, 0 )
+texture = ExtResource( 60 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Brick2Crack4"]
 
@@ -594,7 +630,8 @@ texture = ExtResource( 26 )
 shape = SubResource( 37 )
 
 [node name="Brick2EdgeBorderL2" type="Sprite" parent="."]
-texture = ExtResource( 4 )
+position = Vector2( 1554, 0 )
+texture = ExtResource( 12 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Brick2EdgeBorderL2"]
 
@@ -602,6 +639,7 @@ texture = ExtResource( 4 )
 shape = SubResource( 38 )
 
 [node name="Brick2EdgeBorderR2" type="Sprite" parent="."]
+position = Vector2( 1596, 0 )
 texture = ExtResource( 24 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Brick2EdgeBorderR2"]
@@ -610,7 +648,8 @@ texture = ExtResource( 24 )
 shape = SubResource( 39 )
 
 [node name="Brick2WithFungus2" type="Sprite" parent="."]
-texture = ExtResource( 62 )
+position = Vector2( 1638, 0 )
+texture = ExtResource( 63 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Brick2WithFungus2"]
 
@@ -618,6 +657,7 @@ texture = ExtResource( 62 )
 shape = SubResource( 40 )
 
 [node name="Brick2WithFungusBottomEdge2" type="Sprite" parent="."]
+position = Vector2( 1680, 0 )
 texture = ExtResource( 21 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Brick2WithFungusBottomEdge2"]
@@ -626,6 +666,7 @@ texture = ExtResource( 21 )
 shape = SubResource( 41 )
 
 [node name="Brick2WithFungusEdgeL2" type="Sprite" parent="."]
+position = Vector2( 1722, 0 )
 texture = ExtResource( 73 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Brick2WithFungusEdgeL2"]
@@ -634,6 +675,7 @@ texture = ExtResource( 73 )
 shape = SubResource( 42 )
 
 [node name="Brick2WithFungusEdgeR2" type="Sprite" parent="."]
+position = Vector2( 1764, 0 )
 texture = ExtResource( 51 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Brick2WithFungusEdgeR2"]
@@ -642,7 +684,8 @@ texture = ExtResource( 51 )
 shape = SubResource( 43 )
 
 [node name="Brick2WithFungusUpperEdge2" type="Sprite" parent="."]
-texture = ExtResource( 1 )
+position = Vector2( 1806, 0 )
+texture = ExtResource( 18 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Brick2WithFungusUpperEdge2"]
 
@@ -650,6 +693,7 @@ texture = ExtResource( 1 )
 shape = SubResource( 44 )
 
 [node name="Brick3" type="Sprite" parent="."]
+position = Vector2( 1848, 0 )
 texture = ExtResource( 43 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Brick3"]
@@ -658,6 +702,7 @@ texture = ExtResource( 43 )
 shape = SubResource( 45 )
 
 [node name="Brick31" type="Sprite" parent="."]
+position = Vector2( 1890, 0 )
 texture = ExtResource( 20 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Brick31"]
@@ -666,6 +711,7 @@ texture = ExtResource( 20 )
 shape = SubResource( 46 )
 
 [node name="Brick32" type="Sprite" parent="."]
+position = Vector2( 1932, 0 )
 texture = ExtResource( 65 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Brick32"]
@@ -674,6 +720,7 @@ texture = ExtResource( 65 )
 shape = SubResource( 47 )
 
 [node name="Brick3ArrowForward" type="Sprite" parent="."]
+position = Vector2( 1974, 0 )
 texture = ExtResource( 64 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Brick3ArrowForward"]
@@ -682,6 +729,7 @@ texture = ExtResource( 64 )
 shape = SubResource( 48 )
 
 [node name="Brick3ArrowUp" type="Sprite" parent="."]
+position = Vector2( 2016, 0 )
 texture = ExtResource( 67 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Brick3ArrowUp"]
@@ -690,6 +738,7 @@ texture = ExtResource( 67 )
 shape = SubResource( 49 )
 
 [node name="Brick3Brocken1" type="Sprite" parent="."]
+position = Vector2( 2058, 0 )
 texture = ExtResource( 45 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Brick3Brocken1"]
@@ -698,6 +747,7 @@ texture = ExtResource( 45 )
 shape = SubResource( 50 )
 
 [node name="Brick3Brocken2" type="Sprite" parent="."]
+position = Vector2( 2100, 0 )
 texture = ExtResource( 40 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Brick3Brocken2"]
@@ -706,6 +756,7 @@ texture = ExtResource( 40 )
 shape = SubResource( 51 )
 
 [node name="Brick3Brocken" type="Sprite" parent="."]
+position = Vector2( 2142, 0 )
 texture = ExtResource( 3 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Brick3Brocken"]
@@ -714,6 +765,7 @@ texture = ExtResource( 3 )
 shape = SubResource( 52 )
 
 [node name="Brick3Rusty" type="Sprite" parent="."]
+position = Vector2( 2184, 0 )
 texture = ExtResource( 6 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Brick3Rusty"]
@@ -722,6 +774,7 @@ texture = ExtResource( 6 )
 shape = SubResource( 53 )
 
 [node name="Brick3Shadow1" type="Sprite" parent="."]
+position = Vector2( 2226, 0 )
 texture = ExtResource( 69 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Brick3Shadow1"]
@@ -730,6 +783,7 @@ texture = ExtResource( 69 )
 shape = SubResource( 54 )
 
 [node name="Brick3Shadow" type="Sprite" parent="."]
+position = Vector2( 2268, 0 )
 texture = ExtResource( 68 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Brick3Shadow"]
@@ -738,6 +792,7 @@ texture = ExtResource( 68 )
 shape = SubResource( 55 )
 
 [node name="BrickRoof3" type="Sprite" parent="."]
+position = Vector2( 2310, 0 )
 texture = ExtResource( 22 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="BrickRoof3"]
@@ -746,6 +801,7 @@ texture = ExtResource( 22 )
 shape = SubResource( 56 )
 
 [node name="BrickRoof4" type="Sprite" parent="."]
+position = Vector2( 2352, 0 )
 texture = ExtResource( 39 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="BrickRoof4"]
@@ -754,6 +810,7 @@ texture = ExtResource( 39 )
 shape = SubResource( 57 )
 
 [node name="Brik3EdgeCenterShadow" type="Sprite" parent="."]
+position = Vector2( 2394, 0 )
 texture = ExtResource( 61 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Brik3EdgeCenterShadow"]
@@ -762,6 +819,7 @@ texture = ExtResource( 61 )
 shape = SubResource( 58 )
 
 [node name="Brik3EdgeL" type="Sprite" parent="."]
+position = Vector2( 2436, 0 )
 texture = ExtResource( 66 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Brik3EdgeL"]
@@ -770,6 +828,7 @@ texture = ExtResource( 66 )
 shape = SubResource( 59 )
 
 [node name="Brik3EdgeR" type="Sprite" parent="."]
+position = Vector2( 2478, 0 )
 texture = ExtResource( 44 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Brik3EdgeR"]
@@ -778,6 +837,7 @@ texture = ExtResource( 44 )
 shape = SubResource( 60 )
 
 [node name="BrokenGrid" type="Sprite" parent="."]
+position = Vector2( 2520, 0 )
 texture = ExtResource( 29 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="BrokenGrid"]
@@ -786,6 +846,7 @@ texture = ExtResource( 29 )
 shape = SubResource( 61 )
 
 [node name="Grid" type="Sprite" parent="."]
+position = Vector2( 2562, 0 )
 texture = ExtResource( 37 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Grid"]
@@ -794,7 +855,8 @@ texture = ExtResource( 37 )
 shape = SubResource( 62 )
 
 [node name="GridDanger" type="Sprite" parent="."]
-texture = ExtResource( 47 )
+position = Vector2( 2604, 0 )
+texture = ExtResource( 13 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="GridDanger"]
 
@@ -802,6 +864,7 @@ texture = ExtResource( 47 )
 shape = SubResource( 63 )
 
 [node name="IronEdge" type="Sprite" parent="."]
+position = Vector2( 2646, 0 )
 texture = ExtResource( 46 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="IronEdge"]
@@ -810,6 +873,7 @@ texture = ExtResource( 46 )
 shape = SubResource( 64 )
 
 [node name="IronRoof" type="Sprite" parent="."]
+position = Vector2( 2688, 0 )
 texture = ExtResource( 9 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="IronRoof"]
@@ -818,6 +882,7 @@ texture = ExtResource( 9 )
 shape = SubResource( 65 )
 
 [node name="IronRoofEdgeL" type="Sprite" parent="."]
+position = Vector2( 2730, 0 )
 texture = ExtResource( 48 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="IronRoofEdgeL"]
@@ -826,6 +891,7 @@ texture = ExtResource( 48 )
 shape = SubResource( 66 )
 
 [node name="IronRoofEdgeR" type="Sprite" parent="."]
+position = Vector2( 2772, 0 )
 texture = ExtResource( 14 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="IronRoofEdgeR"]
@@ -834,6 +900,7 @@ texture = ExtResource( 14 )
 shape = SubResource( 67 )
 
 [node name="RoofBrokenCenter2" type="Sprite" parent="."]
+position = Vector2( 2814, 0 )
 texture = ExtResource( 53 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="RoofBrokenCenter2"]
@@ -842,6 +909,7 @@ texture = ExtResource( 53 )
 shape = SubResource( 68 )
 
 [node name="RoofBrokenL2" type="Sprite" parent="."]
+position = Vector2( 2856, 0 )
 texture = ExtResource( 35 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="RoofBrokenL2"]
@@ -850,6 +918,7 @@ texture = ExtResource( 35 )
 shape = SubResource( 69 )
 
 [node name="RoofBrokenR2" type="Sprite" parent="."]
+position = Vector2( 2898, 0 )
 texture = ExtResource( 54 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="RoofBrokenR2"]
@@ -858,6 +927,7 @@ texture = ExtResource( 54 )
 shape = SubResource( 70 )
 
 [node name="RoofEdge2" type="Sprite" parent="."]
+position = Vector2( 2940, 0 )
 texture = ExtResource( 72 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="RoofEdge2"]
@@ -866,6 +936,7 @@ texture = ExtResource( 72 )
 shape = SubResource( 71 )
 
 [node name="RoofEdgeL2" type="Sprite" parent="."]
+position = Vector2( 2982, 0 )
 texture = ExtResource( 41 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="RoofEdgeL2"]
@@ -874,6 +945,7 @@ texture = ExtResource( 41 )
 shape = SubResource( 72 )
 
 [node name="RoofEdgeR2" type="Sprite" parent="."]
+position = Vector2( 3024, 0 )
 texture = ExtResource( 42 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="RoofEdgeR2"]

@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture_atlas"
+type="Texture"
+path="res://.import/Balcony2_Broken_L.png-4170fa253fff602010b4939dd87f063e.res"
+group_file="res://assets/img/city/Bricks.png"
+valid=true
+[deps]
+
+
+source_file="res://assets/img/city/Bricks/Balcony2_Broken_L.png"
+dest_files=[ "res://.import/Balcony2_Broken_L.png-4170fa253fff602010b4939dd87f063e.res" ]
+
+[params]
+
+atlas_file="res://assets/img/city/Bricks.png"
+import_mode=0
+crop_to_region=false

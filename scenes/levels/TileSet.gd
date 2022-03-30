@@ -6,8 +6,10 @@ export(bool) var generate_collisions = false setget _generate
 export var tex_size = Vector2(32,32)
 
 func _generate(val):
+	
 	if Engine.editor_hint and val:
 		for i in range(get_child_count()):
+			get_child(i).position = (tex_size * Vector2.RIGHT + Vector2(10,0)) * i
 			var new_static_body = StaticBody2D.new()
 			var new_collision = CollisionShape2D.new()
 			new_collision.shape = RectangleShape2D.new()

@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture_atlas"
+type="Texture"
+path="res://.import/broken_grid.png-27940db6eb2d33736ccf572a25df0bb3.res"
+group_file="res://assets/img/city/Bricks.png"
+valid=true
+[deps]
+
+
+source_file="res://assets/img/city/Bricks/broken_grid.png"
+dest_files=[ "res://.import/broken_grid.png-27940db6eb2d33736ccf572a25df0bb3.res" ]
+
+[params]
+
+atlas_file="res://assets/img/city/Bricks.png"
+import_mode=0
+crop_to_region=false
