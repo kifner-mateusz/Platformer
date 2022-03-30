@@ -1,7 +1,7 @@
 extends WindowDialog
 
 
-
+export(NodePath) onready var buttons = get_node(buttons) as GridContainer
 
 func _ready():
 	if Engine.editor_hint:
@@ -10,4 +10,4 @@ func _ready():
 		print(level)
 		var new_button=Button.new()
 		new_button.text=level["Name"]
-		$GridContainer.add_child(new_button)
+		buttons.add_child(new_button)
