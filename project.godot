@@ -179,6 +179,7 @@ config/icon="res://icon.png"
 HyperLog="*res://addons/hyperlog/hyperlog.tscn"
 Global="*res://global/global.gd"
 Levelmanager="*res://global/levelmanager.gd"
+Joystick="*res://scenes/joystick/joystick.tscn"
 
 [display]
 
@@ -187,7 +188,7 @@ window/size/height=720
 
 [editor_plugins]
 
-enabled=PoolStringArray( "res://addons/ProjectResolution/plugin.cfg", "res://addons/gd-sheets/plugin.cfg", "res://addons/godot_sfxr/plugin.cfg", "res://addons/hyperlog/plugin.cfg", "res://addons/node_fsm_plugin/plugin.cfg", "res://addons/vnen.tiled_importer/plugin.cfg" )
+enabled=PoolStringArray( "res://addons/ProjectResolution/plugin.cfg", "res://addons/analog_controller/plugin.cfg", "res://addons/gd-sheets/plugin.cfg", "res://addons/godot_sfxr/plugin.cfg", "res://addons/hyperlog/plugin.cfg", "res://addons/node_fsm_plugin/plugin.cfg" )
 
 [gui]
 
@@ -229,6 +230,10 @@ down={
 "events": [  ]
 }
 
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
+
 [physics]
 
 common/enable_pause_aware_picking=true
@@ -237,7 +242,3 @@ common/enable_pause_aware_picking=true
 
 2d/snapping/use_gpu_pixel_snap=true
 environment/default_environment="res://default_env.tres"
-
-[tiled_importer]
-
-enable_json_format=true

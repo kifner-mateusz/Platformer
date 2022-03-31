@@ -11,7 +11,7 @@ func on_enter(player) -> void:
 	player.get_node("AnimatedSprite").play("Walk")
 
 func on_input(player, event: InputEvent) -> void:
-	if(event.is_action_pressed("jump")):
+	if(event.is_action_pressed("jump")) or player.is_joystick_jump_pressed:
 		go_to("Jump")
 
 

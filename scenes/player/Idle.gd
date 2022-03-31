@@ -6,7 +6,7 @@ func on_enter(player) -> void:
 	player.rotation_degrees=0
 
 func on_input(player, event: InputEvent) -> void:
-	if(event.is_action_pressed("jump")):
+	if(event.is_action_pressed("jump")) or player.is_joystick_jump_pressed:
 		go_to("Jump")
 
 

@@ -1,12 +1,9 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://scenes/player/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://scenes/levels/level01/level01.gd" type="Script" id=2]
-[ext_resource path="res://assets/img/city/Spritesheet.png" type="Texture" id=3]
+[ext_resource path="res://scenes/levels/Backgrounds.tscn" type="PackedScene" id=3]
 [ext_resource path="res://scenes/levels/tileset_gen.tres" type="TileSet" id=4]
-[ext_resource path="res://assets/img/city/Background_02.png" type="Texture" id=5]
-[ext_resource path="res://assets/img/city/Background_01.png" type="Texture" id=6]
-[ext_resource path="res://assets/img/city/Background_03.png" type="Texture" id=7]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 10000, 10 )
@@ -14,48 +11,7 @@ extents = Vector2( 10000, 10 )
 [node name="Level01" type="Node2D"]
 script = ExtResource( 2 )
 
-[node name="Backgrounds" type="CanvasLayer" parent="."]
-layer = -1
-
-[node name="Node2D" type="Node2D" parent="Backgrounds"]
-__meta__ = {
-"_edit_group_": true,
-"_edit_lock_": true
-}
-
-[node name="Background04" type="Sprite" parent="Backgrounds/Node2D"]
-position = Vector2( 1000, 0 )
-scale = Vector2( 4, 4 )
-texture = ExtResource( 7 )
-centered = false
-
-[node name="Background03" type="Sprite" parent="Backgrounds/Node2D"]
-position = Vector2( 1331, 223 )
-scale = Vector2( 4, 4 )
-texture = ExtResource( 7 )
-centered = false
-offset = Vector2( -332.75, -55.75 )
-
-[node name="Sprite6" type="Sprite" parent="Backgrounds/Node2D"]
-position = Vector2( 683.5, 600 )
-scale = Vector2( 4, 4 )
-texture = ExtResource( 3 )
-region_enabled = true
-region_rect = Rect2( 19, 302, 384, 191 )
-
-[node name="Background02" type="Sprite" parent="Backgrounds/Node2D"]
-position = Vector2( 179, 621 )
-texture = ExtResource( 5 )
-
-[node name="Background01" type="Sprite" parent="Backgrounds/Node2D"]
-position = Vector2( 1113, 619 )
-texture = ExtResource( 6 )
-
-[node name="Background05" type="Sprite" parent="Backgrounds/Node2D"]
-position = Vector2( 612, 715 )
-scale = Vector2( 1.5, 1.5 )
-texture = ExtResource( 6 )
-flip_h = true
+[node name="Backgrounds" parent="." instance=ExtResource( 3 )]
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = ExtResource( 4 )
