@@ -11,3 +11,4 @@ func _ready():
 		var new_button=Button.new()
 		new_button.text=level["Name"]
 		buttons.add_child(new_button)
+		new_button.connect("pressed",Levelmanager,"go_to_level",[level["Name"]])

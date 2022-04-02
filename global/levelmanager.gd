@@ -4,6 +4,27 @@ var current_level_name=""
 onready var levels= GDSheets.sheet('Maps')
 
 
+
+func go_to_level(level_name):
+	var level_id=0
+	for level in levels.values():
+		if(level["Name"]==level_name):
+			break
+		else:
+			level_id+=1
+			
+	go_to_level_by_id(level_id)
+
+
+func go_to_level_by_id(level_id):
+	current_level=level_id+1
+	show_joystick()
+	var next_level=levels[str(current_level)]
+	get_tree().change_scene_to(load(next_level['Path']))
+	
+
+
+
 func next():
 	current_level+=1
 	show_joystick()
