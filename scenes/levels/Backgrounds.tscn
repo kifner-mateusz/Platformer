@@ -9,6 +9,7 @@
 layer = -1
 
 [node name="Node2D" type="Node2D" parent="."]
+scale = Vector2( 1.2, 1.2 )
 __meta__ = {
 "_edit_lock_": true
 }
@@ -33,7 +34,8 @@ region_enabled = true
 region_rect = Rect2( 19, 302, 384, 191 )
 
 [node name="Background02" type="Sprite" parent="Node2D"]
-position = Vector2( 179, 621 )
+position = Vector2( 179, 715.718 )
+scale = Vector2( 1, 1.6033 )
 texture = ExtResource( 2 )
 
 [node name="Background02" type="Sprite" parent="Node2D/Background02"]
@@ -42,7 +44,8 @@ position = Vector2( 0, 240 )
 texture = ExtResource( 2 )
 
 [node name="Background01" type="Sprite" parent="Node2D"]
-position = Vector2( 1113, 619 )
+position = Vector2( 1113, 688.5 )
+scale = Vector2( 1, 1.37166 )
 texture = ExtResource( 3 )
 
 [node name="Background01" type="Sprite" parent="Node2D/Background01"]
@@ -68,7 +71,8 @@ texture = ExtResource( 2 )
 
 [node name="Background02" type="Sprite" parent="Node2D/Background06"]
 show_behind_parent = true
-position = Vector2( 0, 240 )
+position = Vector2( 0, 328.281 )
+scale = Vector2( 1, 1.5623 )
 texture = ExtResource( 2 )
 
 [node name="Background07" type="Sprite" parent="Node2D"]
