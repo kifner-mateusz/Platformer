@@ -7,9 +7,7 @@
 [ext_resource path="res://assets/img/city/Background_01.png" type="Texture" id=5]
 [ext_resource path="res://assets/img/city/Background_03.png" type="Texture" id=6]
 [ext_resource path="res://scenes/levels/tileset_gen.tres" type="TileSet" id=7]
-
-[sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 10000, 10 )
+[ext_resource path="res://scenes/props/Deathzone.tscn" type="PackedScene" id=8]
 
 [node name="Level02" type="Node2D"]
 script = ExtResource( 2 )
@@ -71,13 +69,5 @@ format = 1
 [node name="Player" parent="." instance=ExtResource( 1 )]
 position = Vector2( 90, 679 )
 
-[node name="Deathzone" type="Area2D" parent="."]
-position = Vector2( 701, 1240 )
-__meta__ = {
-"_edit_group_": true
-}
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Deathzone"]
-shape = SubResource( 1 )
-
-[connection signal="body_entered" from="Deathzone" to="." method="_on_Deathzone_body_entered"]
+[node name="Deathzone" parent="." instance=ExtResource( 8 )]
+position = Vector2( 1314, 2030 )
