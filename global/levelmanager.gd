@@ -20,11 +20,15 @@ export onready var player_scene=preload("res://scenes/player/Player.tscn")
 
 func go_to_level_by_id(level_id):
 	current_level=level_id
+	current_level_name = levels[str(current_level)].Name
 	show_joystick()
 	var next_level=levels[str(current_level)]
 	get_tree().change_scene_to(load(next_level['Path']))
-	yield(get_tree().get_root(),"ready")
-	yield(get_tree().get_root().get_node(current_level_name).get_node("PlayerSpawn"),"ready")
+	
+	# Czekamy na załadowanie sceny
+	while not(get_tree().get_root().has_node(current_level_name)):
+		yield(get_tree(),"idle_frame")
+	# Dodajemy Gracza
 	var new_player = player_scene.instance()
 	get_tree().get_root().get_node(current_level_name).get_node("PlayerSpawn").add_child(new_player)
 	
