@@ -24,8 +24,9 @@ func go_to_level_by_id(level_id):
 	var next_level=levels[str(current_level)]
 	get_tree().change_scene_to(load(next_level['Path']))
 	yield(get_tree().get_root(),"ready")
+	yield(get_tree().get_root().get_node(current_level_name).get_node("PlayerSpawn"),"ready")
 	var new_player = player_scene.instance()
-	get_tree().get_root().get_node(current_level_name).add_child(new_player)
+	get_tree().get_root().get_node(current_level_name).get_node("PlayerSpawn").add_child(new_player)
 	
 
 
