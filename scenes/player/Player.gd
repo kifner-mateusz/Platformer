@@ -56,3 +56,7 @@ func move():
 func death():
 	$FSM.go_to('Death')
 	emit_signal("death")
+func collect(item,count):
+	Global.inventory[item]+=count
+	
+	
