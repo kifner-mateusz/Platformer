@@ -31,16 +31,7 @@ position = Vector2( 1585, 672 )
 [node name="Deathzone" parent="." instance=ExtResource( 6 )]
 
 [node name="Box" parent="." instance=ExtResource( 5 )]
-position = Vector2( 453, 932 )
-
-[node name="Box4" parent="." instance=ExtResource( 5 )]
-position = Vector2( 448, 869 )
-
-[node name="Box2" parent="." instance=ExtResource( 5 )]
-position = Vector2( 501, 927 )
-
-[node name="Box3" parent="." instance=ExtResource( 5 )]
-position = Vector2( 606, 894 )
+position = Vector2( 453, 924 )
 
 [node name="PlayerSpawn" type="Position2D" parent="."]
 position = Vector2( 105, 715 )

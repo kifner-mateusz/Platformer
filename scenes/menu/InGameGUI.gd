@@ -1,5 +1,10 @@
 extends Control
 
 
-func _process(delta):
-	$VBoxContainer/HBoxContainer/Label.text=str(Global.inventory['mleko'])
+func change_inventory_view(inventory):
+	$CanvasLayer/VBoxContainer/HBoxContainer/Label.text=str(inventory['mleko'])
+
+
+
+func _ready():
+	Global.connect("inventory_update",self,"change_inventory_view")
